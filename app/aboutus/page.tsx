@@ -6,7 +6,7 @@ export default function AboutUs() {
   return (
     <>
       <Hero />
-      <AboutSection image="/assests/Image/aboutus.png" />
+      <AboutSection />
       <Process />
     </>
   );
