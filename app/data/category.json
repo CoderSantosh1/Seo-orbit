@@ -75,7 +75,7 @@
     }
   },
   "navigationUi": {
-    "logoSrc": "/assests/Image/logo.png",
+    "logoSrc": "/home/logo.png",
     "logoAlt": "SEOrbit SEO and digital marketing",
     "homeAriaLabel": "SEOrbit home",
     "mainAriaLabel": "Main navigation",
