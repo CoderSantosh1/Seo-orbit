@@ -11,6 +11,7 @@ import {
 	Link2,
 	MousePointerClick,
 	PenTool,
+	Phone,
 	Search,
 	Settings2,
 	Target,
@@ -132,8 +133,11 @@ export default async function ServiceDetailsPage({
 							<h2 className="mt-3 text-[42px] font-bold text-[#101722]">{serviceDetailsPage.needHelpLabel}</h2>
 							<p className="mt-3 text-sm leading-6 text-slate-600">{serviceDetailsPage.helpDescription}</p>
 							<a href={`tel:${siteData.footer.contact.phone.replace(/\s/g, "")}`} className="mt-5 flex items-center gap-3 text-sm font-semibold text-[#101722] hover:text-[#f21f27]">
-								<span className="flex size-11 items-center justify-center rounded-full bg-red-50 text-[#f21f27]"><service.icon size={20} aria-hidden="true" /></span>
-								<span>{siteData.footer.contact.phone}<span className="mt-1 block text-xs font-normal text-slate-500">{siteData.footer.contact.hours}</span></span>
+								<span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-red-50 text-[#f21f27]"><Phone size={20} aria-hidden="true" /></span>
+								<span className="min-w-0 leading-5">
+									<span className="block">{siteData.footer.contact.phone}</span>
+									<span className="mt-1 block text-xs font-normal text-slate-500">{siteData.footer.contact.hours}</span>
+								</span>
 							</a>
 							<Link href="/getquote" className="mt-5 inline-flex min-h-11 items-center gap-3 rounded-full bg-[#f21f27] px-5 text-sm font-bold text-white transition hover:bg-[#d9151c]">
 								{serviceDetailsPage.quoteLabel} <ArrowRight size={17} aria-hidden="true" />

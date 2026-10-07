@@ -18,7 +18,7 @@ export default function Process() {
   return (
     <section
       id="how-it-works"
-      className="overflow-hidden bg-white px-4 py-16 sm:px-6 sm:py-20 lg:py-24"
+      className="overflow-hidden bg-white px-4 py-10 sm:py-14 lg:py-16"
     >
       <div className="mx-auto max-w-[1240px]">
 

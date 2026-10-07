@@ -21,6 +21,8 @@ export const processContent = siteData.process;
 export const homeServicesContent = siteData.homeServices;
 export const servicesPageContent = siteData.servicesPage;
 export const portfolioContent = siteData.portfolio;
+export const portfolioSlug = (title: string) =>
+	title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 export const testimonialsContent = siteData.testimonials;
 export const blogsSectionContent = siteData.blogsSection;
 export const articles = siteData.blogArticles;

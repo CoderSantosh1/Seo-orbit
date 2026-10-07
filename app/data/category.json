@@ -12,10 +12,10 @@
     { "label": "Contact Us", "href": "/contactus" }
   ],
   "header": {
-    "phone": "Support By : +1 (212) 255-5511",
-    "phoneHref": "tel:+12122555511",
-    "email": "info@seoorbit.com",
-    "emailHref": "mailto:info@seoorbit.com",
+    "phone": "Support By : +1 00000000",
+    "phoneHref": "tel:+1 00000000",
+    "email": "info@xyz.com",
+    "emailHref": "mailto:info@xyz.com",
     "social": [
       { "name": "Facebook", "key": "facebook", "href": "#" },
       { "name": "X", "key": "x", "href": "#" },
@@ -33,7 +33,7 @@
       { "label": "Our Services", "href": "/servicess" },
       { "label": "Case Studies", "href": "/portfolio" },
       { "label": "Blog", "href": "/blogs" },
-      { "label": "Careers", "href": "mailto:info@seoorbit.com?subject=Careers" },
+      { "label": "Careers", "href": "mailto:info@xyz.com?subject=Careers" },
       { "label": "Contact Us", "href": "/contactus" }
     ],
     "serviceLinks": [
@@ -41,9 +41,9 @@
       { "label": "Social Media Marketing", "href": "/services/social-media-marketing" },
       { "label": "Pay Per Click (PPC)", "href": "/services/pay-per-click" },
       { "label": "Content Marketing", "href": "/services/branding-creative-design" },
-      { "label": "Website Development", "href": "mailto:info@seoorbit.com?subject=Website%20Development" },
-      { "label": "Online Reputation Management", "href": "mailto:info@seoorbit.com?subject=Reputation%20Management" },
-      { "label": "Email Marketing", "href": "mailto:info@seoorbit.com?subject=Email%20Marketing" }
+      { "label": "Website Development", "href": "mailto:info@xyz.com?subject=Website%20Development" },
+      { "label": "Online Reputation Management", "href": "mailto:info@xyz.com?subject=Reputation%20Management" },
+      { "label": "Email Marketing", "href": "mailto:info@xyz.com?subject=Email%20Marketing" }
     ],
     "socialLinks": [
       { "label": "Facebook", "key": "facebook", "href": "#" },
@@ -52,16 +52,16 @@
       { "label": "YouTube", "key": "youtube", "href": "#" }
     ],
     "contact": {
-      "address": "123 Innovation Street, New Delhi, India - 110001",
-      "phone": "+91 98765 43210",
-      "email": "info@seoorbit.com",
+      "address": "123 Innovation Street, USA address",
+      "phone": "+1 00000000",
+      "email": "info@xyz.com",
       "hours": "Mon - Sat, 9:00 AM to 6:00 PM",
       "replyText": "We reply within 24 hours"
     },
     "legalLinks": [
-      { "label": "Privacy Policy", "href": "mailto:info@seoorbit.com?subject=Privacy%20Policy" },
-      { "label": "Terms & Conditions", "href": "mailto:info@seoorbit.com?subject=Terms%20and%20Conditions" },
-      { "label": "Cookie Policy", "href": "mailto:info@seoorbit.com?subject=Cookie%20Policy" }
+      { "label": "Privacy Policy", "href": "mailto:info@xyz.com?subject=Privacy%20Policy" },
+      { "label": "Terms & Conditions", "href": "mailto:info@xyz.com?subject=Terms%20and%20Conditions" },
+      { "label": "Cookie Policy", "href": "mailto:info@xyz.com?subject=Cookie%20Policy" }
     ],
     "labels": {
       "quickLinks": "Quick Links",
@@ -96,7 +96,7 @@
     "imageAlt": "A team working together at laptops in a bright office",
     "description": "We help businesses grow online with result-driven SEO, social media, and digital marketing strategies that deliver real results.",
     "quoteLabel": "Get A Quote",
-    "quoteHref": "mailto:info@seoorbit.com?subject=Get%20a%20quote",
+    "quoteHref": "mailto:info@xyz.com?subject=Get%20a%20quote",
     "videoLabel": "Watch Video",
     "videoHref": "https://www.youtube.com/results?search_query=SEOrbit+digital+marketing",
     "stats": [
@@ -116,7 +116,7 @@
   "about": {
     "page": {
       "image": "/aboutus/aboutus.png",
-      "imageAlt": "Our team",
+      "imageAlt": "Business owner working in a bright, plant-filled workspace",
       "eyebrow": "ABOUT US",
       "title": "Your Growth Partner in",
       "highlightTitle": "Digital Marketing",
@@ -231,7 +231,8 @@
   "blogArticles": [
     { "id": "blog-seo-strategies", "slug": "seo-strategies-website-traffic", "category": "SEO", "date": "April 12, 2025", "title": "10 Proven SEO Strategies to Boost Your Website Traffic", "description": "Discover effective SEO techniques that can help your website rank higher and attract more organic traffic in 2025.", "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&h=640&q=85", "alt": "SEO analytics on a laptop screen", "intro": "In today’s digital world, having a website is not enough. To attract potential customers and grow your business, you need to ensure your website appears near the top of search engine results. Search Engine Optimization (SEO) is the key to achieving higher visibility, more organic traffic, and long-term success.", "sections": [{ "heading": "Conduct Keyword Research", "body": "Keyword research is the foundation of any successful SEO strategy. Identify the terms your target audience is searching for and incorporate them naturally into your website content, headings, and metadata." }, { "heading": "Optimize On-Page SEO", "body": "On-page SEO includes optimizing your title tags, meta descriptions, headings, images, and content structure. A well-optimized page helps search engines understand your content and rank it higher." }, { "heading": "Create High-Quality Content", "body": "Publish informative, engaging, and original content that provides real value to your audience. Useful content attracts visitors and gives them a reason to stay on your site." }, { "heading": "Build High-Quality Backlinks", "body": "Backlinks from reputable websites signal that your content is trustworthy. Focus on earning relevant links through useful resources, collaborations, and shareable content." }] },
     { "id": "blog-social-media", "slug": "social-media-marketing-brand-growth", "category": "Social Media", "date": "April 8, 2025", "title": "How Social Media Marketing Can Grow Your Brand in 2025", "description": "Learn how to leverage social media platforms to increase brand awareness, engage your audience, and drive real business growth.", "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1200&h=640&q=85", "alt": "Social media apps shown on a smartphone", "intro": "Social media gives businesses a direct way to build awareness, share useful ideas, and stay connected with customers. A thoughtful strategy turns scattered posting into a consistent brand experience that supports real business goals.", "sections": [{ "heading": "Choose the Right Platforms", "body": "Focus on the platforms your customers use most. Matching your channel to your audience helps every post, conversation, and campaign work harder." }, { "heading": "Build a Consistent Content Plan", "body": "Create a balanced calendar of useful, engaging, and brand-led content. A consistent cadence helps people know what to expect from your business." }, { "heading": "Engage With Your Community", "body": "Respond to questions, join relevant conversations, and listen to feedback. Active engagement helps turn followers into a real community around your brand." }, { "heading": "Measure and Refine", "body": "Review reach, engagement, and conversions regularly. Use what you learn to improve future content and invest in the campaigns that perform best." }] },
-    { "id": "blog-ppc-guide", "slug": "ppc-advertising-better-roi", "category": "PPC", "date": "April 5, 2025", "title": "A Complete Guide to PPC Advertising for Better ROI", "description": "Explore how PPC advertising works, its benefits, and the best practices to get maximum return on your investment.", "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&h=640&q=85", "alt": "PPC performance analytics on a dashboard", "intro": "Pay-per-click advertising can put your business in front of people who are actively looking for what you offer. A strong campaign starts with clear goals and improves through careful measurement and ongoing optimization.", "sections": [{ "heading": "Set Clear Campaign Goals", "body": "Decide whether your campaign should generate leads, sales, or qualified visits. Clear goals help you choose the right campaign structure and evaluate performance." }, { "heading": "Reach High-Intent Audiences", "body": "Use focused keywords and audience signals to connect with people who are most likely to need your products or services." }, { "heading": "Write Relevant Ads", "body": "Make your ads specific to the search or audience. Clear messaging and a relevant landing page create a smoother path from click to conversion." }, { "heading": "Optimize for Better ROI", "body": "Track conversions, review spend, and test improvements to bids, targeting, and creative. Small data-led adjustments can improve campaign efficiency over time." }] }
+    { "id": "blog-ppc-guide", "slug": "ppc-advertising-better-roi", "category": "PPC", "date": "April 5, 2025", "title": "A Complete Guide to PPC Advertising for Better ROI", "description": "Explore how PPC advertising works, its benefits, and the best practices to get maximum return on your investment.", "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&h=640&q=85", "alt": "PPC performance analytics on a dashboard", "intro": "Pay-per-click advertising can put your business in front of people who are actively looking for what you offer. A strong campaign starts with clear goals and improves through careful measurement and ongoing optimization.", "sections": [{ "heading": "Set Clear Campaign Goals", "body": "Decide whether your campaign should generate leads, sales, or qualified visits. Clear goals help you choose the right campaign structure and evaluate performance." }, { "heading": "Reach High-Intent Audiences", "body": "Use focused keywords and audience signals to connect with people who are most likely to need your products or services." }, { "heading": "Write Relevant Ads", "body": "Make your ads specific to the search or audience. Clear messaging and a relevant landing page create a smoother path from click to conversion." }, { "heading": "Optimize for Better ROI", "body": "Track conversions, review spend, and test improvements to bids, targeting, and creative. Small data-led adjustments can improve campaign efficiency over time." }] },
+    { "id": "blog-local-seo", "slug": "local-seo-small-business-guide", "category": "SEO", "date": "April 1, 2025", "title": "A Practical Local SEO Guide for Small Businesses", "description": "Simple steps to help nearby customers find and choose your business online.", "image": "/home/heroimage.png", "alt": "Business owner planning an online growth strategy", "intro": "Local search helps customers discover nearby businesses when they need a product or service. A clear, accurate online presence makes it easier for people to find you and take the next step.", "sections": [{ "heading": "Complete Your Business Profile", "body": "Keep your business name, address, phone number, hours, and services accurate. Add current photos and answer common customer questions." }, { "heading": "Create Useful Local Pages", "body": "Explain the services you provide and the areas you serve. Each page should offer useful information rather than repeating location names without context." }, { "heading": "Ask for Customer Reviews", "body": "Invite satisfied customers to share honest feedback and respond thoughtfully. Consistent responses show that your business listens and cares." }, { "heading": "Keep Information Consistent", "body": "Review business details across directories and social profiles. Accurate information helps customers reach you and supports a dependable local presence." }] }
   ],
   "serviceDetails": [
     { "slug": "search-engine-optimization", "title": "Search Engine Optimization", "shortTitle": "SEO", "image": "/portfolio/seo.png", "icon": "search", "description": "Our SEO services are designed to help businesses improve their search engine rankings, increase organic traffic, and generate more qualified leads. We use proven strategies, ethical techniques, and data-driven insights to ensure sustainable growth for your online presence.", "secondary": "From comprehensive keyword research to on-page optimization, technical SEO, and high-quality link building, our team handles every aspect of SEO to help your business stay ahead of the competition.", "processTitle": "How Our SEO Process Works", "processDescription": "We follow a strategic and transparent process to deliver measurable SEO results for your business.", "steps": ["Website Analysis", "Keyword Research", "Implementation", "Monitoring & Growth"], "features": [{ "title": "On-Page SEO", "description": "Optimize your website content, structure, and metadata for better rankings.", "icon": "file" }, { "title": "Off-Page SEO", "description": "Build high-quality backlinks and increase your domain authority.", "icon": "link" }, { "title": "Technical SEO", "description": "Improve website speed, mobile-friendliness, and overall technical health.", "icon": "settings" }, { "title": "Monthly Reporting", "description": "Get detailed reports with insights and progress updates.", "icon": "chart" }] },
@@ -302,7 +303,7 @@
       "detailsLabel": "Project Details",
       "detailsPlaceholder": "Tell us about your requirements, goals, and any specific details...",
       "submitLabel": "Submit Request",
-      "asideImage": "/portfolio/seo.png",
+      "asideImage": "/home/heroimage.png",
       "asideTitle": "Let's Grow Your Business Together",
       "asideDescription": "Our team will analyze your requirements and provide a customized strategy with the best pricing for your business.",
       "benefits": [{ "title": "Free Consultation", "description": "Discuss your goals with our experts", "icon": "message" }, { "title": "Custom Strategy", "description": "Tailored plan as per your business needs", "icon": "file" }, { "title": "Quick Response", "description": "We reply within 24 hours", "icon": "clock" }]

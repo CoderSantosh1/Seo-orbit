@@ -12,7 +12,7 @@ export default function Blogs() {
   return (
     <section
       id="blogs"
-      className="overflow-hidden bg-white px-4 py-16 sm:px-6 sm:py-20 lg:py-24"
+      className="overflow-hidden bg-white px-4 py-10 sm:px-6 sm:py-14 lg:py-16"
     >
       <div className="mx-auto max-w-[1240px]">
 

@@ -37,7 +37,7 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="relative overflow-hidden bg-gradient-to-br from-[#ff373b] via-[#ff292f] to-[#f71f29] px-4 py-14 sm:px-6 sm:py-16 lg:py-20"
+      className="relative overflow-hidden bg-gradient-to-br from-[#ff373b] via-[#ff292f] to-[#f71f29] px-4 py-10 sm:px-6 sm:py-14 lg:py-16"
     >
       {/* Decorative background circles */}
       <motion.div

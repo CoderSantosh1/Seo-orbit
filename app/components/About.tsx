@@ -1,10 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
-import { aboutContent } from "@/app/data/site-data";
+import { aboutContent, testimonialsContent } from "@/app/data/site-data";
 import type { AboutUsProps } from "@/app/types/site";
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -22,7 +20,7 @@ export default function AboutUs(props: AboutUsProps) {
   } = props;
 
   return (
-    <section className="relative overflow-hidden bg-white py-10 sm:py-24 lg:py-10">
+    <section className="relative overflow-hidden bg-white py-10 sm:py-14 lg:py-16">
 
       {/* Decorative Background Circle */}
       <motion.div
@@ -156,9 +154,9 @@ export default function AboutUs(props: AboutUsProps) {
             {/* Avatars */}
 
             <div className="flex -space-x-3">
-              {Array.from({ length: content.avatarCount }, (_, index) => (
+              {testimonialsContent.items.slice(0, content.avatarCount).map((testimonial, index) => (
                 <motion.div
-                  key={index}
+                  key={testimonial.name}
                   initial={{
                     opacity: 0,
                     scale: 0,
@@ -175,9 +173,9 @@ export default function AboutUs(props: AboutUsProps) {
                     delay: 0.6 + index * 0.1,
                     ease,
                   }}
-                  className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-slate-300 sm:h-11 sm:w-11"
+                  className="relative h-10 w-10 overflow-hidden rounded-full border-2 border-white bg-slate-300 sm:h-11 sm:w-11"
                 >
-                  <div className="h-full w-full bg-gradient-to-br from-slate-400 to-slate-700" />
+                  <Image src={testimonial.image} alt="" fill sizes="44px" className="object-cover" />
                 </motion.div>
               ))}
             </div>
@@ -236,8 +234,7 @@ export default function AboutUs(props: AboutUsProps) {
             RIGHT CONTENT
         ===================================================== */}
 
-        <motion.div
-          initial={{
+        <motion.div initial={{
             opacity: 0,
             x: 120,
           }}
@@ -377,36 +374,7 @@ export default function AboutUs(props: AboutUsProps) {
 
           {/* CTA */}
 
-          <motion.div
-            initial={{
-              opacity: 0,
-              y: 25,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-            }}
-            viewport={{
-              once: true,
-            }}
-            transition={{
-              duration: 0.7,
-              delay: 0.85,
-              ease,
-            }}
-          >
-            <Link
-                href={content.ctaHref}
-              className="group mt-8 inline-flex items-center gap-3 font-semibold text-[#f21f27]"
-            >
-              <span>{content.ctaLabel}</span>
-
-              <ArrowRight
-                size={20}
-                className="transition-transform duration-300 group-hover:translate-x-2"
-              />
-            </Link>
-          </motion.div>
+          
         </motion.div>
       </div>
     </section>

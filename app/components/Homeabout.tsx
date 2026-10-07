@@ -26,7 +26,7 @@ export default function AboutUs(props: AboutUsProps) {
   } = props;
 
   return (
-    <section className="relative overflow-hidden bg-white py-20 sm:py-24 lg:py-28">
+    <section className="relative overflow-hidden bg-white py-10 sm:py-14 lg:py-16">
 
       {/* Decorative Background Circle */}
       <motion.div

@@ -1,10 +1,11 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
-import { portfolioContent } from "@/app/data/site-data";
+import { portfolioContent, portfolioSlug } from "@/app/data/site-data";
 
 const projects = portfolioContent.items;
 
@@ -14,7 +15,7 @@ export default function OurWork() {
   return (
     <section
       id="portfolio"
-      className="relative overflow-hidden bg-white py-16 sm:py-20 lg:py-24"
+      className="relative overflow-hidden bg-white py-10 sm:py-14 lg:py-16"
     >
       {/* ================= BACKGROUND DECORATION ================= */}
 
@@ -234,7 +235,7 @@ export default function OurWork() {
                   ease,
                 },
               }}
-              className="group overflow-hidden rounded-[10px] border border-[#e5e7eb] bg-white shadow-[0_5px_20px_rgba(16,23,35,0.05)] transition-shadow duration-500 hover:shadow-[0_18px_40px_rgba(16,23,35,0.12)]"
+              className="group relative overflow-hidden rounded-[10px] border border-[#e5e7eb] bg-white shadow-[0_5px_20px_rgba(16,23,35,0.05)] transition-shadow duration-500 hover:shadow-[0_18px_40px_rgba(16,23,35,0.12)]"
             >
               {/* ================= IMAGE ================= */}
 
@@ -414,7 +415,6 @@ export default function OurWork() {
                 </motion.p>
 
                 {/* ================= STATS ================= */}
-
                 <div className="mt-6 grid grid-cols-3 gap-3">
                   {project.stats.map((stat, statIndex) => (
                     <motion.div
@@ -471,6 +471,11 @@ export default function OurWork() {
                   ))}
                 </div>
               </div>
+              <Link
+                href={`/portfolio/${portfolioSlug(project.title)}`}
+                aria-label={`View project details: ${project.title}`}
+                className="absolute inset-0 z-30 rounded-[10px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f21f27]"
+              />
             </motion.article>
           ))}
         </div>

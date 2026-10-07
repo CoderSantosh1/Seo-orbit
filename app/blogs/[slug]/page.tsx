@@ -36,23 +36,23 @@ export default async function BlogDetailsPage({
 						<span className="rounded bg-[#f21f27] px-2.5 py-1 text-xs font-bold text-white">{article.category}</span>
 						<span className="inline-flex items-center gap-2"><CalendarDays size={16} className="text-[#f21f27]" aria-hidden="true" /><time>{article.date}</time></span>
 					</div>
-					<h2 className="mt-4 text-[42px] font-bold leading-tight text-[#101722] sm:text-4xl">{article.title}</h2>
-					<div className="mt-5 space-y-4 text-[15px] leading-7 text-slate-600 sm:text-base">
+					<h2 className="mt-4 text-3xl font-bold leading-tight text-[#101722] sm:text-4xl">{article.title}</h2>
+					<div className="mt-5 space-y-4 text-base leading-7 text-slate-600">
 						<p>{article.intro}</p>
 						<p>{article.description}</p>
 					</div>
-					<div className="mt-6 space-y-5">
+					<div className="mt-7 space-y-6">
 						{article.sections.map((section, index) => (
 							<section key={section.heading}>
-								<h3 className="text-xl font-bold text-[#101722] sm:text-[42px]">{index + 1}. {section.heading}</h3>
-								<p className="mt-1 text-[15px] leading-7 text-slate-600 sm:text-base">{section.body}</p>
+								<h3 className="text-xl font-bold leading-snug text-[#101722] sm:text-2xl">{index + 1}. {section.heading}</h3>
+								<p className="mt-2 text-base leading-7 text-slate-600">{section.body}</p>
 							</section>
 						))}
 					</div>
 				</article>
 
 				<section className="mx-auto mt-12 max-w-[1060px] border-t border-slate-200 pt-8 sm:mt-14" aria-labelledby="related-blogs-heading">
-					<h2 id="related-blogs-heading" className="text-[42px] font-bold text-[#101722] sm:text-[42px]">{blogDetailsPage.relatedLabel}</h2>
+					<h2 id="related-blogs-heading" className="text-2xl font-bold text-[#101722] sm:text-3xl">{blogDetailsPage.relatedLabel}</h2>
 					<div className="mt-5 grid gap-5 sm:grid-cols-2">
 						{relatedArticles.map((related) => (
 							<article key={related.slug} className="overflow-hidden rounded-lg border border-slate-100 bg-white shadow-[0_6px_24px_rgba(16,23,35,0.07)]">

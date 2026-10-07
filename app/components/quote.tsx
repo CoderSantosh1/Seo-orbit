@@ -6,7 +6,7 @@ import {
 	FileText,
 	MessageSquareText,
 } from "lucide-react";
-import { homeServicesContent, quotePageContent } from "@/app/data/site-data";
+import { quotePageContent } from "@/app/data/site-data";
 
 const benefitsIconMap = {
 	message: MessageSquareText,
@@ -116,7 +116,7 @@ export default function QuoteRequest() {
 						<div className="relative mt-auto h-[175px] pt-9 sm:h-[205px]">
 							<span className="absolute inset-x-[-10%] top-5 z-10 h-12 -rotate-2 rounded-[50%] border-t-[10px] border-[#f21f27]" aria-hidden="true" />
 							<span className="absolute inset-x-[-10%] top-8 z-10 h-12 -rotate-2 rounded-[50%] border-t-[8px] border-white" aria-hidden="true" />
-							  <Image src={quotePageContent.form.asideImage} alt={homeServicesContent.items[0].alt} fill className="object-cover object-center" sizes="(max-width: 1023px) 100vw, 35vw" />
+							  <Image src={quotePageContent.form.asideImage} alt="A business owner planning a digital growth strategy" fill className="object-cover object-center" sizes="(max-width: 1023px) 100vw, 35vw" />
 						</div>
 					</aside>
 				</div>
