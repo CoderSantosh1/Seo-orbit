@@ -1,0 +1,32 @@
+import categoryData from "./category.json";
+import type { SiteData } from "@/app/types/site";
+
+export const siteData = categoryData as SiteData;
+
+export const navigationItems = siteData.navigation;
+export const navigationUi = siteData.navigationUi;
+export const headerSocialLinks = siteData.header.social;
+export const footerQuickLinks = siteData.footer.quickLinks;
+export const footerServiceLinks = siteData.footer.serviceLinks;
+export const footerSocialLinks = siteData.footer.socialLinks;
+export const footerContact = siteData.footer.contact;
+export const footerLegalLinks = siteData.footer.legalLinks;
+export const heroBadge = siteData.hero.badge;
+export const heroTitle = siteData.hero.title;
+export const heroDescription = siteData.hero.description;
+export const heroStats = siteData.hero.stats;
+export const pageHeroes = siteData.pageHeroes;
+export const aboutContent = siteData.about;
+export const processContent = siteData.process;
+export const homeServicesContent = siteData.homeServices;
+export const servicesPageContent = siteData.servicesPage;
+export const portfolioContent = siteData.portfolio;
+export const testimonialsContent = siteData.testimonials;
+export const blogsSectionContent = siteData.blogsSection;
+export const articles = siteData.blogArticles;
+export const serviceDetails = siteData.serviceDetails;
+export const serviceDetailsPage = siteData.serviceDetailsPage;
+export const blogDetailsPage = siteData.blogDetailsPage;
+export const contactPageContent = siteData.contactPage;
+export const quotePageContent = siteData.quotePage;
+export const locationContent = siteData.location;
