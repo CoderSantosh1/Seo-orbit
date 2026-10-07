@@ -106,7 +106,7 @@
     ]
   },
   "pageHeroes": {
-    "about": { "title": "About Us", "breadcrumb": "About", "image": "/aboutus/aboutusba.png", "imageAlt": "About Us" },
+    "about": { "title": "About Us", "breadcrumb": "About", "image": "/blogs/blogsheroImages.png", "imageAlt": "About Us" },
     "blogs": { "title": "Blogs", "breadcrumb": "Blogs", "image": "/blogs/blogsheroImages.png", "imageAlt": "Blogs" },
     "contact": { "title": "Contact Us", "breadcrumb": "Contact Us", "image": "/blogs/blogsheroImages.png", "imageAlt": "SEOrbit Contact Us" },
     "quote": { "title": "Get A Quote", "breadcrumb": "Get A Quote", "image": "/blogs/blogsheroImages.png", "imageAlt": "SEOrbit Contact Us" },
