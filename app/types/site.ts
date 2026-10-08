@@ -329,6 +329,9 @@ export interface SiteData {
     breadcrumbLabel: string;
     relatedLabel: string;
     readMoreLabel: string;
+    homeLabel: string;
+    parentLabel: string;
+    exploreLabel: string;
   };
   contactPage: {
     form: {

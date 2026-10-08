@@ -271,7 +271,7 @@
     "breadcrumbLabel": "Portfolio",
     "quoteLabel": "Discuss a Similar Project"
   },
-  "blogDetailsPage": { "breadcrumbLabel": "Blogs Details", "relatedLabel": "Related Blogs", "readMoreLabel": "Read More" },
+  "blogDetailsPage": { "breadcrumbLabel": "Blogs Details", "relatedLabel": "Related Blogs", "readMoreLabel": "Read More", "homeLabel": "Home", "parentLabel": "Blogs", "exploreLabel": "Explore" },
   "contactPage": {
     "form": {
       "title": "Send Us a Message",
