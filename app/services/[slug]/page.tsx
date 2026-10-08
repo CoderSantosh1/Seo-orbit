@@ -94,7 +94,7 @@ export default async function ServiceDetailsPage({
 							</ol>
 						</section>
 
-						<section className="mt-8 rounded-lg bg-slate-50 p-5 sm:p-7" aria-labelledby="service-features-heading">
+						<section className="mt-9" aria-labelledby="service-features-heading">
 							<SectionEyebrow>{serviceDetailsPage.featuresLabel}</SectionEyebrow>
 							<h2 id="service-features-heading" className="mt-3 text-[42px] font-bold text-[#101722]">{serviceDetailsPage.featureHeadingPrefix} {service.shortTitle} {serviceDetailsPage.featureHeadingSuffix}</h2>
 							<div className="mt-6 grid gap-x-6 gap-y-5 sm:grid-cols-2">
