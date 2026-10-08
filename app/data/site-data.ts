@@ -28,6 +28,7 @@ export const blogsSectionContent = siteData.blogsSection;
 export const articles = siteData.blogArticles;
 export const serviceDetails = siteData.serviceDetails;
 export const serviceDetailsPage = siteData.serviceDetailsPage;
+export const portfolioDetailsPage = siteData.portfolioDetailsPage;
 export const blogDetailsPage = siteData.blogDetailsPage;
 export const contactPageContent = siteData.contactPage;
 export const quotePageContent = siteData.quotePage;

@@ -87,7 +87,7 @@ export default function QuoteRequest() {
 						</form>
 					</div>
 
-					<aside className="relative flex min-h-[610px] flex-col overflow-hidden rounded-md bg-[#062033] px-6 pt-7 text-white sm:px-8">
+					<aside className="relative flex min-h-[610px] flex-col overflow-hidden rounded-md bg-[#0b253c] px-6 pt-7 text-white sm:px-8">
 						<div className="relative z-10">
 							<div className="h-[3px] w-12 bg-[#f21f27]" />
 							<h2 className="mt-3 text-[26px] font-bold leading-tight sm:text-[30px]">{quotePageContent.form.asideTitle}</h2>
@@ -113,10 +113,8 @@ export default function QuoteRequest() {
 							</div>
 						</div>
 
-						<div className="relative mt-auto h-[175px] pt-9 sm:h-[205px]">
-							<span className="absolute inset-x-[-10%] top-5 z-10 h-12 -rotate-2 rounded-[50%] border-t-[10px] border-[#f21f27]" aria-hidden="true" />
-							<span className="absolute inset-x-[-10%] top-8 z-10 h-12 -rotate-2 rounded-[50%] border-t-[8px] border-white" aria-hidden="true" />
-							  <Image src={quotePageContent.form.asideImage} alt="Our team reviewing a growth strategy together" fill className="object-cover object-center" sizes="(max-width: 1023px) 100vw, 35vw" />
+						<div className="relative -mx-6 mt-auto aspect-[1267/832] sm:-mx-8">
+							<Image src={quotePageContent.form.asideImage} alt="Laptop showing SEO growth chart" fill className="object-cover object-top" sizes="(max-width: 1023px) 100vw, 35vw" />
 						</div>
 					</aside>
 				</div>

@@ -310,6 +310,21 @@ export interface SiteData {
     bannerImageAlt: string;
     bannerImage: string;
   };
+  portfolioDetailsPage: {
+    overviewLabel: string;
+    secondaryDescription: string;
+    processLabel: string;
+    processTitle: string;
+    processDescription: string;
+    steps: string[];
+    resultsLabel: string;
+    resultsTitle: string;
+    exploreLabel: string;
+    projectsLabel: string;
+    homeLabel: string;
+    breadcrumbLabel: string;
+    quoteLabel: string;
+  };
   blogDetailsPage: {
     breadcrumbLabel: string;
     relatedLabel: string;

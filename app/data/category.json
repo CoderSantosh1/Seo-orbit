@@ -256,6 +256,21 @@
     "bannerImage": "/home/heroimage.png",
     "bannerImageAlt": "Marketing team planning a digital growth strategy"
   },
+  "portfolioDetailsPage": {
+    "overviewLabel": "Project Overview",
+    "secondaryDescription": "Our team started with a detailed audit of the client's goals, audience, and competitors, then built a focused plan with clear milestones. Every decision was guided by data, and progress was tracked closely so we could refine the approach and maximize results.",
+    "processLabel": "Our Approach",
+    "processTitle": "How We Delivered Results",
+    "processDescription": "A clear, step-by-step process kept the project on track from the first call to the final report.",
+    "steps": ["Research & Audit", "Strategy & Planning", "Execution & Optimization", "Reporting & Growth"],
+    "resultsLabel": "Project Results",
+    "resultsTitle": "A Measurable Difference",
+    "exploreLabel": "Explore",
+    "projectsLabel": "Our Projects",
+    "homeLabel": "Home",
+    "breadcrumbLabel": "Portfolio",
+    "quoteLabel": "Discuss a Similar Project"
+  },
   "blogDetailsPage": { "breadcrumbLabel": "Blogs Details", "relatedLabel": "Related Blogs", "readMoreLabel": "Read More" },
   "contactPage": {
     "form": {
@@ -303,7 +318,7 @@
       "detailsLabel": "Project Details",
       "detailsPlaceholder": "Tell us about your requirements, goals, and any specific details...",
       "submitLabel": "Submit Request",
-      "asideImage": "/aboutus/aboutus.png",
+      "asideImage": "/getquote/getqoute.png",
       "asideTitle": "Let's Grow Your Business Together",
       "asideDescription": "Our team will analyze your requirements and provide a customized strategy with the best pricing for your business.",
       "benefits": [{ "title": "Free Consultation", "description": "Discuss your goals with our experts", "icon": "message" }, { "title": "Custom Strategy", "description": "Tailored plan as per your business needs", "icon": "file" }, { "title": "Quick Response", "description": "We reply within 24 hours", "icon": "clock" }]

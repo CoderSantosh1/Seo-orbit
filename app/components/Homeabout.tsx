@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Headset, Users } from "lucide-react";
 import { motion } from "framer-motion";
-import { aboutContent } from "@/app/data/site-data";
+import { aboutContent, testimonialsContent } from "@/app/data/site-data";
 import type { AboutUsProps } from "@/app/types/site";
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -12,6 +12,10 @@ const featureIconMap = {
   users: Users,
   support: Headset,
 } as const;
+const avatarImages = [
+  ...testimonialsContent.items.map((item) => item.image),
+  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=160&h=160&q=85",
+];
 
 export default function AboutUs(props: AboutUsProps) {
   const content = aboutContent.home;
@@ -96,9 +100,9 @@ export default function AboutUs(props: AboutUsProps) {
                     delay: 0.65 + index * 0.1,
                     ease,
                   }}
-                  className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-slate-300 sm:h-11 sm:w-11"
+                  className="relative h-10 w-10 overflow-hidden rounded-full border-2 border-white bg-slate-300 sm:h-11 sm:w-11"
                 >
-                  <div className="h-full w-full bg-gradient-to-br from-slate-400 to-slate-700" />
+                  <Image src={avatarImages[index % avatarImages.length]} alt="" fill sizes="44px" className="object-cover" />
                 </motion.div>
               ))}
             </div>
