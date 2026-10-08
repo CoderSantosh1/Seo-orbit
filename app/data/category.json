@@ -52,7 +52,7 @@
       { "label": "YouTube", "key": "youtube", "href": "#" }
     ],
     "contact": {
-      "address": "123 Innovation Street, USA address",
+      "address": "47 W 13th St, New York, NY 10011, USA ",
       "phone": "+1 00000000",
       "email": "info@xyz.com",
       "hours": "Mon - Sat, 9:00 AM to 6:00 PM",
@@ -303,7 +303,7 @@
       "detailsLabel": "Project Details",
       "detailsPlaceholder": "Tell us about your requirements, goals, and any specific details...",
       "submitLabel": "Submit Request",
-      "asideImage": "/home/heroimage.png",
+      "asideImage": "/aboutus/aboutus.png",
       "asideTitle": "Let's Grow Your Business Together",
       "asideDescription": "Our team will analyze your requirements and provide a customized strategy with the best pricing for your business.",
       "benefits": [{ "title": "Free Consultation", "description": "Discuss your goals with our experts", "icon": "message" }, { "title": "Custom Strategy", "description": "Tailored plan as per your business needs", "icon": "file" }, { "title": "Quick Response", "description": "We reply within 24 hours", "icon": "clock" }]
