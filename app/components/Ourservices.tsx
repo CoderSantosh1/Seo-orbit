@@ -24,7 +24,7 @@ export default function OurServices() {
   return (
     <section
       id="services"
-      className="relative overflow-hidden bg-white py-16 sm:py-20 lg:py-10"
+      className="relative overflow-hidden bg-white py-10 sm:py-14 lg:py-16"
     >
       {/* ================= BACKGROUND DECORATIONS ================= */}
 
