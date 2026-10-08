@@ -276,6 +276,7 @@ export interface SiteData {
     title: string;
     highlightTitle: string;
     description: string;
+    learnMoreLabel: string;
     items: PortfolioProject[];
   };
   testimonials: {

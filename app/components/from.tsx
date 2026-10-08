@@ -137,7 +137,7 @@ export default function ContactUsForm() {
           {/* =====================================================
               RIGHT - CONTACT INFORMATION
           ====================================================== */}
-          <div className="relative overflow-hidden rounded-md bg-[#062033] px-7 py-8 text-white sm:px-8">
+          <div className="relative overflow-hidden rounded-md bg-[#062033] px-6 py-7 text-white sm:px-7">
 
             {/* Decorative circles */}
             <div className="pointer-events-none absolute -bottom-24 -right-28 h-[360px] w-[360px] rounded-full border-[25px] border-[#f21f27]/10" />
@@ -149,7 +149,7 @@ export default function ContactUsForm() {
               {/* Heading */}
               <div className="h-[3px] w-12 bg-[#f21f27]" />
 
-              <h2 className="mt-3 text-[42px] font-bold sm:text-[30px]">
+              <h2 className="mt-3 text-2xl font-bold sm:text-[26px]">
                 {contactPageContent.information.title}
               </h2>
 
@@ -158,16 +158,16 @@ export default function ContactUsForm() {
               </p>
 
               {/* Contact items */}
-              <div className="mt-7 space-y-6">
+              <div className="mt-6 space-y-5">
 
                 {/* Office */}
-                <div className="flex items-start gap-5">
-                  <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-[#f21f27]">
-                    <MapPin size={29} strokeWidth={2.5} />
+                <div className="flex items-start gap-4">
+                  <div className="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#f21f27]">
+                    <MapPin size={22} strokeWidth={2.5} />
                   </div>
 
-                  <div className="pt-1">
-                    <h3 className="text-base font-bold">
+                  <div className="pt-0.5">
+                    <h3 className="text-[15px] font-bold">
                       {contactPageContent.information.officeLabel}
                     </h3>
 
@@ -178,13 +178,13 @@ export default function ContactUsForm() {
                 </div>
 
                 {/* Phone */}
-                <div className="flex items-start gap-5">
-                  <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-[#f21f27]">
-                    <Phone size={27} fill="white" strokeWidth={2} />
+                <div className="flex items-start gap-4">
+                  <div className="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#f21f27]">
+                    <Phone size={20} fill="white" strokeWidth={2} />
                   </div>
 
-                  <div className="pt-1">
-                    <h3 className="text-base font-bold">
+                  <div className="pt-0.5">
+                    <h3 className="text-[15px] font-bold">
                       {contactPageContent.information.phoneLabel}
                     </h3>
 
@@ -202,13 +202,13 @@ export default function ContactUsForm() {
                 </div>
 
                 {/* Email */}
-                <div className="flex items-start gap-5">
-                  <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-[#f21f27]">
-                    <Mail size={28} strokeWidth={2.5} />
+                <div className="flex items-start gap-4">
+                  <div className="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#f21f27]">
+                    <Mail size={21} strokeWidth={2.5} />
                   </div>
 
-                  <div className="pt-1">
-                    <h3 className="text-base font-bold">
+                  <div className="pt-0.5">
+                    <h3 className="text-[15px] font-bold">
                       {contactPageContent.information.emailLabel}
                     </h3>
 
@@ -227,15 +227,15 @@ export default function ContactUsForm() {
               </div>
 
               {/* Divider */}
-              <div className="my-7 h-px bg-white/15" />
+              <div className="my-6 h-px bg-white/15" />
 
               {/* Social */}
               <div>
-                <h3 className="text-lg font-bold">
+                <h3 className="text-base font-bold">
                   {contactPageContent.information.followLabel}
                 </h3>
 
-                <div className="mt-4 flex gap-4">
+                <div className="mt-3 flex gap-3">
                   {footerSocialLinks.map((social) => {
                     const Icon = socialIconMap[social.key];
 
@@ -244,9 +244,9 @@ export default function ContactUsForm() {
                         key={social.label}
                         href="#"
                         aria-label={social.label}
-                        className="flex h-13 w-13 items-center justify-center rounded-full bg-white/10 text-white transition-all duration-300 hover:bg-[#f21f27]"
+                        className="flex size-10 items-center justify-center rounded-full bg-white/10 text-white transition-all duration-300 hover:bg-[#f21f27]"
                       >
-                        <Icon size={21} />
+                        <Icon size={17} />
                       </a>
                     );
                   })}

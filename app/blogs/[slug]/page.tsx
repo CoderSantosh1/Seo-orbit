@@ -36,7 +36,7 @@ export default async function BlogDetailsPage({
 							<SectionEyebrow>{article.category}</SectionEyebrow>
 							<span className="inline-flex items-center gap-2 text-sm text-slate-500"><CalendarDays size={16} className="text-[#f21f27]" aria-hidden="true" /><time>{article.date}</time></span>
 						</div>
-						<h2 className="mt-3 text-[42px] font-bold leading-tight text-[#101722] sm:text-4xl">{article.title}</h2>
+						<h2 className="mt-3 text-[42px] font-bold text-[#101722] sm:text-4xl">{article.title}</h2>
 						<p className={`mt-4 ${bodyTextClass}`}>{article.description}</p>
 
 						<div className="relative mt-7 aspect-[1.75/1] overflow-hidden rounded-lg bg-slate-100">
@@ -45,9 +45,9 @@ export default async function BlogDetailsPage({
 
 						<p className={`mt-7 ${bodyTextClass}`}>{article.intro}</p>
 						{article.sections.map((section) => (
-							<section key={section.heading} className="mt-8">
-								<h3 className="text-2xl font-bold leading-snug text-[#101722]">{section.heading}</h3>
-								<p className={`mt-3 ${bodyTextClass}`}>{section.body}</p>
+							<section key={section.heading} className="mt-9">
+								<h3 className="text-[42px] font-bold text-[#101722]">{section.heading}</h3>
+								<p className={`mt-2 ${bodyTextClass}`}>{section.body}</p>
 							</section>
 						))}
 					</article>

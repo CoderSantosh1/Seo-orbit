@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 
 import { portfolioContent, portfolioSlug } from "@/app/data/site-data";
 
@@ -235,7 +235,7 @@ export default function OurWork() {
                   ease,
                 },
               }}
-              className="group relative overflow-hidden rounded-[10px] border border-[#e5e7eb] bg-white shadow-[0_5px_20px_rgba(16,23,35,0.05)] transition-shadow duration-500 hover:shadow-[0_18px_40px_rgba(16,23,35,0.12)]"
+              className="group relative flex flex-col overflow-hidden rounded-[10px] border border-[#e5e7eb] bg-white shadow-[0_5px_20px_rgba(16,23,35,0.05)] transition-shadow duration-500 hover:shadow-[0_18px_40px_rgba(16,23,35,0.12)]"
             >
               {/* ================= IMAGE ================= */}
 
@@ -364,7 +364,7 @@ export default function OurWork() {
 
               {/* ================= CONTENT ================= */}
 
-              <div className="px-5 pb-5 pt-8">
+              <div className="flex flex-1 flex-col px-5 pb-5 pt-8">
 
                 {/* Title */}
 
@@ -469,6 +469,23 @@ export default function OurWork() {
                       </p>
                     </motion.div>
                   ))}
+                </div>
+
+                {/* Learn More (the card link below handles the click) */}
+                <div className="mt-auto pt-4">
+                  <span className="inline-flex items-center gap-3 text-[14px] font-bold text-[#102a4a]">
+                    <span className="transition-colors duration-300 group-hover:text-[#f21f27]">
+                      {portfolioContent.learnMoreLabel}
+                    </span>
+                    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#fff0f0] text-[#f21f27] transition-all duration-300 group-hover:bg-[#f21f27] group-hover:text-white">
+                      <ArrowRight
+                        size={17}
+                        strokeWidth={2}
+                        className="transition-transform duration-300 group-hover:translate-x-1"
+                        aria-hidden="true"
+                      />
+                    </span>
+                  </span>
                 </div>
               </div>
               <Link
