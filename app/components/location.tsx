@@ -3,7 +3,7 @@ import { locationContent } from "@/app/data/site-data";
 
 export default function ContactLocation() {
 	return (
-		<section className="bg-white px-4 py-10 sm:px-6 sm:py-14">
+		<section className="bg-white px-4 py-10 sm:px-6 sm:py-14 lg:py-16">
 			<div className="mx-auto max-w-[1240px]">
 				<div className="relative h-[190px] overflow-hidden rounded-xl border border-slate-200 bg-slate-100 sm:h-[210px]">
 					<iframe
