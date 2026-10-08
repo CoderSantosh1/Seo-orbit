@@ -1,340 +1,1588 @@
 {
-  "metadata": {
-    "title": "SEO Orbit - SEO and Digital Marketing Agency",
-    "description": "SEO and digital marketing agency helping businesses grow their online presence."
-  },
-  "navigation": [
-    { "label": "Home", "href": "/" },
-    { "label": "About Us", "href": "/aboutus" },
-    { "label": "Services", "href": "/servicess" },
-    { "label": "Portfolio", "href": "/portfolio" },
-    { "label": "Blogs", "href": "/blogs" },
-    { "label": "Contact Us", "href": "/contactus" }
-  ],
-  "header": {
-    "phone": "Support By : +1 00000000",
-    "phoneHref": "tel:+1 00000000",
-    "email": "info@xyz.com",
-    "emailHref": "mailto:info@xyz.com",
-    "social": [
-      { "name": "Facebook", "key": "facebook", "href": "#" },
-      { "name": "X", "key": "x", "href": "#" },
-      { "name": "LinkedIn", "key": "linkedin", "href": "#" },
-      { "name": "Instagram", "key": "instagram", "href": "#" },
-      { "name": "YouTube", "key": "youtube", "href": "#" }
-    ]
-  },
-  "footer": {
-    "logoSrc": "/home/white-logo.png",
-    "description": "We help businesses grow with result-driven digital marketing strategies, creative campaigns, and data-backed solutions to build a stronger online presence.",
-    "quickLinks": [
-      { "label": "Home", "href": "/" },
-      { "label": "About Us", "href": "/aboutus" },
-      { "label": "Our Services", "href": "/servicess" },
-      { "label": "Case Studies", "href": "/portfolio" },
-      { "label": "Blog", "href": "/blogs" },
-      { "label": "Careers", "href": "mailto:info@xyz.com?subject=Careers" },
-      { "label": "Contact Us", "href": "/contactus" }
-    ],
-    "serviceLinks": [
-      { "label": "Search Engine Optimization", "href": "/services/search-engine-optimization" },
-      { "label": "Social Media Marketing", "href": "/services/social-media-marketing" },
-      { "label": "Pay Per Click (PPC)", "href": "/services/pay-per-click" },
-      { "label": "Content Marketing", "href": "/services/branding-creative-design" },
-      { "label": "Website Development", "href": "mailto:info@xyz.com?subject=Website%20Development" },
-      { "label": "Online Reputation Management", "href": "mailto:info@xyz.com?subject=Reputation%20Management" },
-      { "label": "Email Marketing", "href": "mailto:info@xyz.com?subject=Email%20Marketing" }
-    ],
-    "socialLinks": [
-      { "label": "Facebook", "key": "facebook", "href": "#" },
-      { "label": "Instagram", "key": "instagram", "href": "#" },
-      { "label": "LinkedIn", "key": "linkedin", "href": "#" },
-      { "label": "YouTube", "key": "youtube", "href": "#" }
-    ],
-    "contact": {
-      "address": "47 W 13th St, New York, NY 10011, USA ",
-      "phone": "+1 00000000",
-      "email": "info@xyz.com",
-      "hours": "Mon - Sat, 9:00 AM to 6:00 PM",
-      "replyText": "We reply within 24 hours"
+  "common": {
+    "metadata": {
+      "title": "SEO Orbit - SEO and Digital Marketing Agency",
+      "description": "SEO and digital marketing agency helping businesses grow their online presence."
     },
-    "legalLinks": [
-      { "label": "Privacy Policy", "href": "mailto:info@xyz.com?subject=Privacy%20Policy" },
-      { "label": "Terms & Conditions", "href": "mailto:info@xyz.com?subject=Terms%20and%20Conditions" },
-      { "label": "Cookie Policy", "href": "mailto:info@xyz.com?subject=Cookie%20Policy" }
-    ],
-    "labels": {
-      "quickLinks": "Quick Links",
-      "services": "Our Services",
-      "contact": "Get In Touch",
-      "homeAriaLabel": "SEOrbit home",
-      "logoAlt": "SEOrbit Logo",
-      "socialAriaLabel": "Social media",
-      "legalAriaLabel": "Legal links",
-      "copyright": "SEOOrbit. All Rights Reserved."
+    "Footer": {
+      "logoSrc": "/home/white-logo.png",
+      "description": "We help businesses grow with result-driven digital marketing strategies, creative campaigns, and data-backed solutions to build a stronger online presence.",
+      "quickLinks": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "About Us",
+          "href": "/aboutus"
+        },
+        {
+          "label": "Our Services",
+          "href": "/servicess"
+        },
+        {
+          "label": "Case Studies",
+          "href": "/portfolio"
+        },
+        {
+          "label": "Blog",
+          "href": "/blogs"
+        },
+        {
+          "label": "Careers",
+          "href": "mailto:info@xyz.com?subject=Careers"
+        },
+        {
+          "label": "Contact Us",
+          "href": "/contactus"
+        }
+      ],
+      "serviceLinks": [
+        {
+          "label": "Search Engine Optimization",
+          "href": "/services/search-engine-optimization"
+        },
+        {
+          "label": "Social Media Marketing",
+          "href": "/services/social-media-marketing"
+        },
+        {
+          "label": "Pay Per Click (PPC)",
+          "href": "/services/pay-per-click"
+        },
+        {
+          "label": "Content Marketing",
+          "href": "/services/branding-creative-design"
+        },
+        {
+          "label": "Website Development",
+          "href": "mailto:info@xyz.com?subject=Website%20Development"
+        },
+        {
+          "label": "Online Reputation Management",
+          "href": "mailto:info@xyz.com?subject=Reputation%20Management"
+        },
+        {
+          "label": "Email Marketing",
+          "href": "mailto:info@xyz.com?subject=Email%20Marketing"
+        }
+      ],
+      "socialLinks": [
+        {
+          "label": "Facebook",
+          "key": "facebook",
+          "href": "#"
+        },
+        {
+          "label": "Instagram",
+          "key": "instagram",
+          "href": "#"
+        },
+        {
+          "label": "LinkedIn",
+          "key": "linkedin",
+          "href": "#"
+        },
+        {
+          "label": "YouTube",
+          "key": "youtube",
+          "href": "#"
+        }
+      ],
+      "contact": {
+        "address": "47 W 13th St, New York, NY 10011, USA ",
+        "phone": "+1 00000000",
+        "email": "info@xyz.com",
+        "hours": "Mon - Sat, 9:00 AM to 6:00 PM",
+        "replyText": "We reply within 24 hours"
+      },
+      "legalLinks": [
+        {
+          "label": "Privacy Policy",
+          "href": "mailto:info@xyz.com?subject=Privacy%20Policy"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "mailto:info@xyz.com?subject=Terms%20and%20Conditions"
+        },
+        {
+          "label": "Cookie Policy",
+          "href": "mailto:info@xyz.com?subject=Cookie%20Policy"
+        }
+      ],
+      "labels": {
+        "quickLinks": "Quick Links",
+        "services": "Our Services",
+        "contact": "Get In Touch",
+        "homeAriaLabel": "SEOrbit home",
+        "logoAlt": "SEOrbit Logo",
+        "socialAriaLabel": "Social media",
+        "legalAriaLabel": "Legal links",
+        "copyright": "SEOOrbit. All Rights Reserved."
+      }
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "breadcrumb": "About",
+      "image": "/blogs/blogsheroImages.png",
+      "imageAlt": "About Us"
+    },
+    "blogBreadcrumb": {
+      "title": "Blogs",
+      "breadcrumb": "Blogs",
+      "image": "/blogs/blogsheroImages.png",
+      "imageAlt": "Blogs"
+    },
+    "blogDetailBreadcrumb": {
+      "title": "Blogs Details",
+      "breadcrumb": "Blogs Details",
+      "image": "/blogs/blogsheroImages.png",
+      "imageAlt": "Digital marketing articles",
+      "parentLabel": "Blogs",
+      "parentHref": "/blogs"
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "breadcrumb": "Contact Us",
+      "image": "/blogs/blogsheroImages.png",
+      "imageAlt": "SEOrbit Contact Us"
+    },
+    "quoteBreadcrumb": {
+      "title": "Get A Quote",
+      "breadcrumb": "Get A Quote",
+      "image": "/blogs/blogsheroImages.png",
+      "imageAlt": "SEOrbit Contact Us"
+    },
+    "portfolioBreadcrumb": {
+      "title": "Portfolio",
+      "breadcrumb": "Portfolio",
+      "image": "/portfolio/Portfliohero.png",
+      "imageAlt": "Portfolio"
+    },
+    "serviceDetailPage": {
+      "overviewLabel": "Overview",
+      "processLabel": "Our Process",
+      "featuresLabel": "What You Get",
+      "exploreLabel": "Explore",
+      "servicesLabel": "Our Services",
+      "needHelpLabel": "Need Help?",
+      "helpDescription": "Have questions? Our team is here to help you choose the right solution for your business.",
+      "quoteLabel": "Get A Quote",
+      "homeLabel": "Home",
+      "breadcrumbLabel": "Services",
+      "featureHeadingPrefix": "Key Features of Our",
+      "featureHeadingSuffix": "Services",
+      "bannerImage": "/home/heroimage.png",
+      "bannerImageAlt": "Marketing team planning a digital growth strategy"
+    },
+    "portfolioDetailPage": {
+      "overviewLabel": "Project Overview",
+      "secondaryDescription": "Our team started with a detailed audit of the client's goals, audience, and competitors, then built a focused plan with clear milestones. Every decision was guided by data, and progress was tracked closely so we could refine the approach and maximize results.",
+      "processLabel": "Our Approach",
+      "processTitle": "How We Delivered Results",
+      "processDescription": "A clear, step-by-step process kept the project on track from the first call to the final report.",
+      "steps": [
+        "Research & Audit",
+        "Strategy & Planning",
+        "Execution & Optimization",
+        "Reporting & Growth"
+      ],
+      "resultsLabel": "Project Results",
+      "resultsTitle": "A Measurable Difference",
+      "exploreLabel": "Explore",
+      "projectsLabel": "Our Projects",
+      "homeLabel": "Home",
+      "breadcrumbLabel": "Portfolio",
+      "quoteLabel": "Discuss a Similar Project"
+    },
+    "blogDetailPage": {
+      "breadcrumbLabel": "Blogs Details",
+      "relatedLabel": "Related Blogs",
+      "readMoreLabel": "Read More",
+      "homeLabel": "Home",
+      "parentLabel": "Blogs",
+      "exploreLabel": "Explore"
     }
   },
-  "navigationUi": {
-    "logoSrc": "/home/logo.png",
-    "logoAlt": "SEOrbit SEO and digital marketing",
-    "homeAriaLabel": "SEOrbit home",
-    "mainAriaLabel": "Main navigation",
-    "breadcrumbAriaLabel": "Breadcrumb",
-    "mobileMenuAriaLabel": "Open navigation menu",
-    "mobileLabel": "Navigation",
-    "quoteLabel": "Get A Quote",
-    "quoteHref": "/getquote"
+  "categories": {
+    "SEO": {
+      "sections": {
+        "TopBar": {
+          "variants": {
+            "SEOTopBar1": {
+              "phone": "Support By : +1 00000000",
+              "phoneHref": "tel:+1 00000000",
+              "email": "info@xyz.com",
+              "emailHref": "mailto:info@xyz.com",
+              "social": [
+                {
+                  "name": "Facebook",
+                  "key": "facebook",
+                  "href": "#"
+                },
+                {
+                  "name": "X",
+                  "key": "x",
+                  "href": "#"
+                },
+                {
+                  "name": "LinkedIn",
+                  "key": "linkedin",
+                  "href": "#"
+                },
+                {
+                  "name": "Instagram",
+                  "key": "instagram",
+                  "href": "#"
+                },
+                {
+                  "name": "YouTube",
+                  "key": "youtube",
+                  "href": "#"
+                }
+              ]
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "SEOHeader1": {
+              "logoSrc": "/home/logo.png",
+              "logoAlt": "SEOrbit SEO and digital marketing",
+              "homeAriaLabel": "SEOrbit home",
+              "mainAriaLabel": "Main navigation",
+              "breadcrumbAriaLabel": "Breadcrumb",
+              "mobileMenuAriaLabel": "Open navigation menu",
+              "mobileLabel": "Navigation",
+              "quoteLabel": "Get A Quote",
+              "quoteHref": "/getquote",
+              "navLinks": [
+                {
+                  "label": "Home",
+                  "href": "/"
+                },
+                {
+                  "label": "About Us",
+                  "href": "/aboutus"
+                },
+                {
+                  "label": "Services",
+                  "href": "/servicess"
+                },
+                {
+                  "label": "Portfolio",
+                  "href": "/portfolio"
+                },
+                {
+                  "label": "Blogs",
+                  "href": "/blogs"
+                },
+                {
+                  "label": "Contact Us",
+                  "href": "/contactus"
+                }
+              ]
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "SEOHero1": {
+              "badge": "Result Driven Agency",
+              "title": [
+                "Digital Marketing",
+                "Agency for Real",
+                "Business Growth"
+              ],
+              "image": "/home/heroimage.png",
+              "imageAlt": "A team working together at laptops in a bright office",
+              "description": "We help businesses grow online with result-driven SEO, social media, and digital marketing strategies that deliver real results.",
+              "quoteLabel": "Get A Quote",
+              "quoteHref": "mailto:info@xyz.com?subject=Get%20a%20quote",
+              "videoLabel": "Watch Video",
+              "videoHref": "https://www.youtube.com/results?search_query=SEOrbit+digital+marketing",
+              "stats": [
+                {
+                  "amount": "250+",
+                  "label": "Happy Clients",
+                  "key": "users"
+                },
+                {
+                  "amount": "500+",
+                  "label": "Projects Done",
+                  "key": "file"
+                },
+                {
+                  "amount": "5+",
+                  "label": "Years Experience",
+                  "key": "trophy"
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "SEOAboutUs1": {
+              "image": "/aboutus/aboutus.png",
+              "imageAlt": "Our team",
+              "eyebrow": "ABOUT US",
+              "title": "Your Growth Partner in",
+              "highlightTitle": "Digital Marketing",
+              "description": [
+                "We are a result-driven digital marketing agency focused on helping businesses grow online. From strategic SEO and targeted social media to performance-driven campaigns, we create tailored solutions that bring real results and long-term success."
+              ],
+              "clientCount": "4.5k+",
+              "clientLabel": "Satisfied Clients",
+              "avatarCount": 4,
+              "ctaLabel": "Read More",
+              "ctaHref": "/aboutus",
+              "features": [
+                {
+                  "title": "Experienced Team",
+                  "description": "Our experts bring years of industry experience to deliver strategies that work.",
+                  "icon": "users"
+                },
+                {
+                  "title": "Dedicated Support",
+                  "description": "We’re always here to guide you with quick and reliable support.",
+                  "icon": "support"
+                }
+              ],
+              "buttonLabel": "Read More",
+              "buttonHref": "/aboutus"
+            },
+            "SEOAboutUs2": {
+              "image": "/aboutus/aboutus.png",
+              "imageAlt": "Business owner working in a bright, plant-filled workspace",
+              "eyebrow": "ABOUT US",
+              "title": "Your Growth Partner in",
+              "highlightTitle": "Digital Marketing",
+              "description": [
+                "We are a result-driven digital marketing agency focused on helping businesses grow online. From strategic SEO and targeted social media to performance-driven campaigns, we create tailored solutions that bring real results and long-term success."
+              ],
+              "clientCount": "4.5k+",
+              "clientLabel": "Satisfied Clients",
+              "avatarCount": 4,
+              "ctaLabel": "Learn More",
+              "ctaHref": "#about"
+            }
+          }
+        },
+        "Process": {
+          "variants": {
+            "SEOProcess1": {
+              "eyebrow": "How It Works",
+              "title": "A Simple Process to",
+              "highlightTitle": "Get Real Results",
+              "description": "We follow a clear and proven process to understand your business, create the right strategy, and deliver measurable growth.",
+              "arrowImage": "/home/forward.jpg",
+              "steps": [
+                {
+                  "title": "Discover & Plan",
+                  "description": "We understand your business goals, analyze your current performance, and create a custom strategy.",
+                  "image": "/home/howtowork.png",
+                  "alt": "Business owners discussing their goals",
+                  "icon": "comments"
+                },
+                {
+                  "title": "Strategize & Create",
+                  "description": "Our team develops a tailored marketing plan and creates high-performing campaigns for your audience.",
+                  "image": "/stock/analytics-laptop.jpg",
+                  "alt": "Marketing analytics dashboard on a laptop",
+                  "icon": "settings"
+                },
+                {
+                  "title": "Implement & Optimize",
+                  "description": "We launch campaigns, monitor performance, and continuously optimize for better results and higher ROI.",
+                  "image": "/stock/performance-dashboard.jpg",
+                  "alt": "Digital performance charts on a screen",
+                  "icon": "chart"
+                },
+                {
+                  "title": "Achieve Growth",
+                  "description": "Get measurable results, more leads, higher conversions, and long-term business growth.",
+                  "image": "/stock/modern-workspace.jpg",
+                  "alt": "A bright modern workspace for a growing business",
+                  "icon": "trophy"
+                }
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "SEOServices1": {
+              "eyebrow": "Our Services",
+              "title": "Digital Solutions to",
+              "highlightTitle": "Grow Your Business",
+              "description": "We offer end-to-end digital marketing services designed to increase your online presence, attract the right audience, and deliver measurable results.",
+              "items": [
+                {
+                  "id": "service-seo",
+                  "title": "Search Engine Optimization",
+                  "description": "Improve your website’s visibility and rank higher on search engines with proven SEO strategies.",
+                  "more": "We combine technical SEO, content planning, and ongoing optimization to help the right customers find your business.",
+                  "image": "/stock/analytics-laptop.jpg",
+                  "alt": "SEO analytics displayed on a laptop",
+                  "icon": "chart",
+                  "href": "/services/search-engine-optimization"
+                },
+                {
+                  "id": "service-social-media",
+                  "title": "Social Media Marketing",
+                  "description": "Engage your audience and build a strong brand presence across all major social platforms.",
+                  "more": "From channel strategy to creative campaigns, we help your brand show up consistently and build a community.",
+                  "image": "/stock/social-media-icon.jpg",
+                  "alt": "Social media apps displayed on a phone",
+                  "icon": "megaphone",
+                  "href": "/services/social-media-marketing"
+                },
+                {
+                  "id": "service-paid-ads",
+                  "title": "Pay Per Click Advertising",
+                  "description": "Drive targeted traffic and get instant results with data-driven PPC campaigns.",
+                  "more": "We plan, launch, and refine paid campaigns around your goals, with clear measurement for every click and conversion.",
+                  "image": "/stock/performance-dashboard.jpg",
+                  "alt": "Performance charts on a digital dashboard",
+                  "icon": "pointer",
+                  "href": "/services/pay-per-click"
+                },
+                {
+                  "id": "service-branding",
+                  "title": "Branding & Creative Design",
+                  "description": "Build a memorable brand identity with impactful designs that connect and convert.",
+                  "more": "We shape cohesive visual identities and creative assets that make your business recognizable across every channel.",
+                  "image": "/stock/brand-design.jpg",
+                  "alt": "A designer creating a visual brand identity",
+                  "icon": "pen",
+                  "href": "/services/branding-creative-design"
+                }
+              ],
+              "readMoreLabel": "Read More",
+              "previousLabel": "First service",
+              "nextLabel": "Last service",
+              "jumpLabel": "Jump to a service"
+            },
+            "SEOServices2": {
+              "eyebrow": "Our Services",
+              "title": "Digital Solutions to",
+              "highlightTitle": "Grow Your Business",
+              "description": "We offer end-to-end digital marketing services designed to increase your online presence, attract the right audience, and deliver measurable results.",
+              "readMoreLabel": "Read More",
+              "items": [
+                {
+                  "title": "Search Engine Optimization",
+                  "description": "Improve your website's visibility and rank higher on search engines with proven SEO strategies.",
+                  "image": "/portfolio/seo.png",
+                  "alt": "Search engine optimization",
+                  "icon": "chart",
+                  "href": "/services/search-engine-optimization"
+                },
+                {
+                  "title": "Social Media Marketing",
+                  "description": "Engage your audience and build a strong brand presence across all major social platforms.",
+                  "image": "/portfolio/socialmedia.png",
+                  "alt": "Social media marketing",
+                  "icon": "megaphone",
+                  "href": "/services/social-media-marketing"
+                },
+                {
+                  "title": "Pay Per Click Advertising",
+                  "description": "Drive targeted traffic and get instant results with data-driven PPC campaigns.",
+                  "image": "/portfolio/ppc.png",
+                  "alt": "Pay per click advertising",
+                  "icon": "pointer",
+                  "href": "/services/pay-per-click"
+                },
+                {
+                  "title": "Branding & Creative Design",
+                  "description": "Build a memorable brand identity with impactful designs that connect and convert.",
+                  "image": "/portfolio/brand.png",
+                  "alt": "Branding and creative design",
+                  "icon": "pen",
+                  "href": "/services/branding-creative-design"
+                }
+              ]
+            }
+          }
+        },
+        "ServiceDetail": {
+          "variants": {
+            "search-engine-optimization": {
+              "slug": "search-engine-optimization",
+              "title": "Search Engine Optimization",
+              "shortTitle": "SEO",
+              "image": "/portfolio/seo.png",
+              "icon": "search",
+              "description": "Our SEO services are designed to help businesses improve their search engine rankings, increase organic traffic, and generate more qualified leads. We use proven strategies, ethical techniques, and data-driven insights to ensure sustainable growth for your online presence.",
+              "secondary": "From comprehensive keyword research to on-page optimization, technical SEO, and high-quality link building, our team handles every aspect of SEO to help your business stay ahead of the competition.",
+              "processTitle": "How Our SEO Process Works",
+              "processDescription": "We follow a strategic and transparent process to deliver measurable SEO results for your business.",
+              "steps": [
+                "Website Analysis",
+                "Keyword Research",
+                "Implementation",
+                "Monitoring & Growth"
+              ],
+              "features": [
+                {
+                  "title": "On-Page SEO",
+                  "description": "Optimize your website content, structure, and metadata for better rankings.",
+                  "icon": "file"
+                },
+                {
+                  "title": "Off-Page SEO",
+                  "description": "Build high-quality backlinks and increase your domain authority.",
+                  "icon": "link"
+                },
+                {
+                  "title": "Technical SEO",
+                  "description": "Improve website speed, mobile-friendliness, and overall technical health.",
+                  "icon": "settings"
+                },
+                {
+                  "title": "Monthly Reporting",
+                  "description": "Get detailed reports with insights and progress updates.",
+                  "icon": "chart"
+                }
+              ]
+            },
+            "social-media-marketing": {
+              "slug": "social-media-marketing",
+              "title": "Social Media Marketing",
+              "shortTitle": "Social Media",
+              "image": "/portfolio/socialmedia.png",
+              "icon": "users",
+              "description": "Build a recognizable brand and meaningful relationships with your audience. Our social media marketing services combine channel strategy, creative content, and audience insights to turn attention into long-term customer relationships.",
+              "secondary": "We plan and manage campaigns across the platforms that matter to your customers, keep your publishing consistent, and use performance data to improve engagement over time.",
+              "processTitle": "How Our Social Media Process Works",
+              "processDescription": "A clear content and campaign process keeps your brand relevant, consistent, and measurable.",
+              "steps": [
+                "Audience Research",
+                "Channel Strategy",
+                "Content & Campaigns",
+                "Measure & Improve"
+              ],
+              "features": [
+                {
+                  "title": "Content Planning",
+                  "description": "Create a consistent calendar shaped around your audience and goals.",
+                  "icon": "file"
+                },
+                {
+                  "title": "Community Growth",
+                  "description": "Build stronger relationships through timely, thoughtful engagement.",
+                  "icon": "users"
+                },
+                {
+                  "title": "Paid Social",
+                  "description": "Reach relevant audiences with carefully targeted campaigns.",
+                  "icon": "pointer"
+                },
+                {
+                  "title": "Performance Reports",
+                  "description": "Understand reach, engagement, and campaign results at a glance.",
+                  "icon": "chart"
+                }
+              ]
+            },
+            "pay-per-click": {
+              "slug": "pay-per-click",
+              "title": "Pay Per Click Advertising",
+              "shortTitle": "PPC",
+              "image": "/portfolio/ppc.png",
+              "icon": "pointer",
+              "description": "Reach high-intent customers with pay-per-click campaigns built around your business goals. We structure, launch, and manage paid search campaigns to attract qualified traffic and turn clicks into measurable actions.",
+              "secondary": "From keyword and audience selection to ad creative, landing page alignment, and ongoing bid optimization, every decision is guided by campaign performance.",
+              "processTitle": "How Our PPC Process Works",
+              "processDescription": "We build focused advertising campaigns, measure what matters, and optimize for better returns.",
+              "steps": [
+                "Goal & Audience Setup",
+                "Campaign Planning",
+                "Launch & Testing",
+                "Optimize & Scale"
+              ],
+              "features": [
+                {
+                  "title": "Search Campaigns",
+                  "description": "Connect with people actively searching for your products or services.",
+                  "icon": "search"
+                },
+                {
+                  "title": "Audience Targeting",
+                  "description": "Focus spend on audiences most likely to take action.",
+                  "icon": "target"
+                },
+                {
+                  "title": "Conversion Tracking",
+                  "description": "Measure leads and sales to understand campaign impact.",
+                  "icon": "gauge"
+                },
+                {
+                  "title": "Ongoing Optimization",
+                  "description": "Refine bids, ads, and targeting using campaign data.",
+                  "icon": "trending"
+                }
+              ]
+            },
+            "branding-creative-design": {
+              "slug": "branding-creative-design",
+              "title": "Branding & Creative Design",
+              "shortTitle": "Branding & Design",
+              "image": "/portfolio/brand.png",
+              "icon": "pen",
+              "description": "Create a memorable brand identity that helps your business stand out and communicate with confidence. We bring strategy and visual design together to make your brand clear, consistent, and recognizable.",
+              "secondary": "From visual direction and brand assets to campaign creative, we build a cohesive experience that connects with customers across your digital channels.",
+              "processTitle": "How Our Branding Process Works",
+              "processDescription": "We turn your business goals and personality into a distinctive, cohesive brand system.",
+              "steps": [
+                "Discover & Research",
+                "Creative Direction",
+                "Design & Refine",
+                "Deliver Brand Assets"
+              ],
+              "features": [
+                {
+                  "title": "Brand Strategy",
+                  "description": "Clarify your positioning, audience, and the story your brand tells.",
+                  "icon": "target"
+                },
+                {
+                  "title": "Visual Identity",
+                  "description": "Create a consistent visual language for your business.",
+                  "icon": "pen"
+                },
+                {
+                  "title": "Campaign Creative",
+                  "description": "Develop digital assets that support your marketing campaigns.",
+                  "icon": "file"
+                },
+                {
+                  "title": "Brand Consistency",
+                  "description": "Keep every customer touchpoint aligned with your identity.",
+                  "icon": "check"
+                }
+              ]
+            }
+          }
+        },
+        "Portfolio": {
+          "variants": {
+            "SEOPortfolio1": {
+              "eyebrow": "Our Work",
+              "title": "Results That",
+              "highlightTitle": "Speak for Themselves",
+              "description": "Explore some of the projects and campaigns that have helped businesses grow, attract customers, and achieve measurable results.",
+              "items": [
+                {
+                  "category": "SEO",
+                  "title": "E-Commerce Website Growth",
+                  "description": "Increased organic traffic and sales for an online fashion store with a complete SEO strategy.",
+                  "image": "/portfolio/Ecom.png",
+                  "stats": [
+                    {
+                      "value": "250%",
+                      "label": "Organic Traffic"
+                    },
+                    {
+                      "value": "180%",
+                      "label": "Revenue"
+                    },
+                    {
+                      "value": "120+",
+                      "label": "Keywords Ranked"
+                    }
+                  ]
+                },
+                {
+                  "category": "Website Development",
+                  "title": "Real Estate Website Development",
+                  "description": "Built a modern, SEO-friendly website for a real estate company with lead generation integration.",
+                  "image": "/portfolio/Realstate.png",
+                  "stats": [
+                    {
+                      "value": "300%",
+                      "label": "Leads Generated"
+                    },
+                    {
+                      "value": "70%",
+                      "label": "Bounce Rate ↓"
+                    },
+                    {
+                      "value": "200+",
+                      "label": "Property Listings"
+                    }
+                  ]
+                },
+                {
+                  "category": "Social Media Marketing",
+                  "title": "Social Media Brand Awareness",
+                  "description": "Boosted brand visibility and engagement for a lifestyle brand through targeted social media campaigns.",
+                  "image": "/portfolio/socialmedia.png",
+                  "stats": [
+                    {
+                      "value": "400%",
+                      "label": "Engagement"
+                    },
+                    {
+                      "value": "250%",
+                      "label": "Followers"
+                    },
+                    {
+                      "value": "3X",
+                      "label": "Brand Mentions"
+                    }
+                  ]
+                },
+                {
+                  "category": "PPC",
+                  "title": "Google Ads Lead Generation",
+                  "description": "Generated high-quality leads for a B2B company through targeted Google Ads campaigns.",
+                  "image": "/portfolio/googleads.png",
+                  "stats": [
+                    {
+                      "value": "300%",
+                      "label": "Lead Conversion"
+                    },
+                    {
+                      "value": "50%",
+                      "label": "Cost Reduction"
+                    },
+                    {
+                      "value": "150+",
+                      "label": "Qualified Leads"
+                    }
+                  ]
+                },
+                {
+                  "category": "SEO",
+                  "title": "Health care Website SEO",
+                  "description": "Optimized a healthcare website for search engines, resulting in increased visibility and patient inquiries.",
+                  "image": "/portfolio/healthcare.png",
+                  "stats": [
+                    {
+                      "value": "200%",
+                      "label": "Organic Traffic"
+                    }
+                  ]
+                },
+                {
+                  "category": "Content Marketing",
+                  "title": "Travel Blog Content Strategy",
+                  "description": "Developed a comprehensive content strategy for a travel blog, resulting in increased readership and engagement.",
+                  "image": "/portfolio/healthcare.png",
+                  "stats": [
+                    {
+                      "value": "250%",
+                      "label": "Readership"
+                    },
+                    {
+                      "value": "150%",
+                      "label": "Engagement"
+                    },
+                    {
+                      "value": "100+",
+                      "label": "Content Pieces"
+                    }
+                  ]
+                },
+                {
+                  "category": "Website Development",
+                  "title": "Restaurant Website Redesign",
+                  "description": "Redesigned a restaurant website to improve user experience, online reservations, and local SEO.",
+                  "image": "/portfolio/fooddevelivery.png",
+                  "stats": [
+                    {
+                      "value": "300%",
+                      "label": "Online Reservations"
+                    },
+                    {
+                      "value": "80%",
+                      "label": "Bounce Rate ↓"
+                    },
+                    {
+                      "value": "50+",
+                      "label": "Menu Items"
+                    }
+                  ]
+                },
+                {
+                  "category": "SEO",
+                  "title": "Financial Company SEO",
+                  "description": "Optimized a financial services website for search engines, resulting in increased visibility and client inquiries.",
+                  "image": "/portfolio/healthcare.png",
+                  "stats": [
+                    {
+                      "value": "200%",
+                      "label": "Organic Traffic"
+                    }
+                  ]
+                },
+                {
+                  "category": "Social Media Marketing",
+                  "title": "Educations Institutions Social Media",
+                  "description": "Boosted brand visibility and engagement for an educational institution through targeted social media campaigns.",
+                  "image": "/portfolio/Educationsmedia.png",
+                  "stats": [
+                    {
+                      "value": "400%",
+                      "label": "Engagement"
+                    },
+                    {
+                      "value": "250%",
+                      "label": "Followers"
+                    },
+                    {
+                      "value": "3X",
+                      "label": "Brand Mentions"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "SEOTestimonials1": {
+              "eyebrow": "Testimonials",
+              "title": "What Our",
+              "highlightTitle": "Clients Say",
+              "description": "Real stories. Real results. Here’s what our clients have to say about working with us.",
+              "items": [
+                {
+                  "quote": "Working with this team has been a game-changer for our business. Their strategic approach and dedication helped us achieve results beyond our expectations. Highly professional and easy to work with!",
+                  "name": "Sarah Mitchell",
+                  "role": "CEO, BrightWave Solutions",
+                  "image": "/avatars/sarah-mitchell.jpg",
+                  "alt": "Sarah Mitchell"
+                },
+                {
+                  "quote": "Their expertise and data-driven strategies significantly improved our online presence. The team understood our goals perfectly and delivered exceptional results. We couldn’t be happier with the partnership!",
+                  "name": "James Carter",
+                  "role": "Founder, NextGen Labs",
+                  "image": "/avatars/james-carter.jpg",
+                  "alt": "James Carter"
+                },
+                {
+                  "quote": "From the initial consultation to ongoing support, everything has been seamless. Their innovative ideas and consistent communication made the entire process smooth and effective. I highly recommend their services!",
+                  "name": "Emily Rodriguez",
+                  "role": "Marketing Head, Sphere Media",
+                  "image": "/avatars/emily-rodriguez.jpg",
+                  "alt": "Emily Rodriguez"
+                }
+              ]
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "SEOBlogs1": {
+              "eyebrow": "Blogs",
+              "title": "Latest Insights &",
+              "highlightTitle": "Updates",
+              "description": "Stay updated with the latest trends, tips, and strategies in digital marketing to grow your business online.",
+              "readMoreLabel": "Read More",
+              "blogs": [
+                {
+                  "id": "blog-seo-strategies",
+                  "slug": "seo-strategies-website-traffic",
+                  "category": "SEO",
+                  "date": "April 12, 2025",
+                  "title": "10 Proven SEO Strategies to Boost Your Website Traffic",
+                  "description": "Discover effective SEO techniques that can help your website rank higher and attract more organic traffic in 2025.",
+                  "image": "/stock/analytics-laptop.jpg",
+                  "alt": "SEO analytics on a laptop screen",
+                  "intro": "In today’s digital world, having a website is not enough. To attract potential customers and grow your business, you need to ensure your website appears near the top of search engine results. Search Engine Optimization (SEO) is the key to achieving higher visibility, more organic traffic, and long-term success.",
+                  "sections": [
+                    {
+                      "heading": "Conduct Keyword Research",
+                      "body": "Keyword research is the foundation of any successful SEO strategy. Identify the terms your target audience is searching for and incorporate them naturally into your website content, headings, and metadata."
+                    },
+                    {
+                      "heading": "Optimize On-Page SEO",
+                      "body": "On-page SEO includes optimizing your title tags, meta descriptions, headings, images, and content structure. A well-optimized page helps search engines understand your content and rank it higher."
+                    },
+                    {
+                      "heading": "Create High-Quality Content",
+                      "body": "Publish informative, engaging, and original content that provides real value to your audience. Useful content attracts visitors and gives them a reason to stay on your site."
+                    },
+                    {
+                      "heading": "Build High-Quality Backlinks",
+                      "body": "Backlinks from reputable websites signal that your content is trustworthy. Focus on earning relevant links through useful resources, collaborations, and shareable content."
+                    }
+                  ]
+                },
+                {
+                  "id": "blog-social-media",
+                  "slug": "social-media-marketing-brand-growth",
+                  "category": "Social Media",
+                  "date": "April 8, 2025",
+                  "title": "How Social Media Marketing Can Grow Your Brand in 2025",
+                  "description": "Learn how to leverage social media platforms to increase brand awareness, engage your audience, and drive real business growth.",
+                  "image": "/stock/social-media-icon.jpg",
+                  "alt": "Social media apps shown on a smartphone",
+                  "intro": "Social media gives businesses a direct way to build awareness, share useful ideas, and stay connected with customers. A thoughtful strategy turns scattered posting into a consistent brand experience that supports real business goals.",
+                  "sections": [
+                    {
+                      "heading": "Choose the Right Platforms",
+                      "body": "Focus on the platforms your customers use most. Matching your channel to your audience helps every post, conversation, and campaign work harder."
+                    },
+                    {
+                      "heading": "Build a Consistent Content Plan",
+                      "body": "Create a balanced calendar of useful, engaging, and brand-led content. A consistent cadence helps people know what to expect from your business."
+                    },
+                    {
+                      "heading": "Engage With Your Community",
+                      "body": "Respond to questions, join relevant conversations, and listen to feedback. Active engagement helps turn followers into a real community around your brand."
+                    },
+                    {
+                      "heading": "Measure and Refine",
+                      "body": "Review reach, engagement, and conversions regularly. Use what you learn to improve future content and invest in the campaigns that perform best."
+                    }
+                  ]
+                },
+                {
+                  "id": "blog-ppc-guide",
+                  "slug": "ppc-advertising-better-roi",
+                  "category": "PPC",
+                  "date": "April 5, 2025",
+                  "title": "A Complete Guide to PPC Advertising for Better ROI",
+                  "description": "Explore how PPC advertising works, its benefits, and the best practices to get maximum return on your investment.",
+                  "image": "/stock/performance-dashboard.jpg",
+                  "alt": "PPC performance analytics on a dashboard",
+                  "intro": "Pay-per-click advertising can put your business in front of people who are actively looking for what you offer. A strong campaign starts with clear goals and improves through careful measurement and ongoing optimization.",
+                  "sections": [
+                    {
+                      "heading": "Set Clear Campaign Goals",
+                      "body": "Decide whether your campaign should generate leads, sales, or qualified visits. Clear goals help you choose the right campaign structure and evaluate performance."
+                    },
+                    {
+                      "heading": "Reach High-Intent Audiences",
+                      "body": "Use focused keywords and audience signals to connect with people who are most likely to need your products or services."
+                    },
+                    {
+                      "heading": "Write Relevant Ads",
+                      "body": "Make your ads specific to the search or audience. Clear messaging and a relevant landing page create a smoother path from click to conversion."
+                    },
+                    {
+                      "heading": "Optimize for Better ROI",
+                      "body": "Track conversions, review spend, and test improvements to bids, targeting, and creative. Small data-led adjustments can improve campaign efficiency over time."
+                    }
+                  ]
+                },
+                {
+                  "id": "blog-local-seo",
+                  "slug": "local-seo-small-business-guide",
+                  "category": "SEO",
+                  "date": "April 1, 2025",
+                  "title": "A Practical Local SEO Guide for Small Businesses",
+                  "description": "Simple steps to help nearby customers find and choose your business online.",
+                  "image": "/home/heroimage.png",
+                  "alt": "Business owner planning an online growth strategy",
+                  "intro": "Local search helps customers discover nearby businesses when they need a product or service. A clear, accurate online presence makes it easier for people to find you and take the next step.",
+                  "sections": [
+                    {
+                      "heading": "Complete Your Business Profile",
+                      "body": "Keep your business name, address, phone number, hours, and services accurate. Add current photos and answer common customer questions."
+                    },
+                    {
+                      "heading": "Create Useful Local Pages",
+                      "body": "Explain the services you provide and the areas you serve. Each page should offer useful information rather than repeating location names without context."
+                    },
+                    {
+                      "heading": "Ask for Customer Reviews",
+                      "body": "Invite satisfied customers to share honest feedback and respond thoughtfully. Consistent responses show that your business listens and cares."
+                    },
+                    {
+                      "heading": "Keep Information Consistent",
+                      "body": "Review business details across directories and social profiles. Accurate information helps customers reach you and supports a dependable local presence."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "SEOContact1": {
+              "form": {
+                "title": "Send Us a Message",
+                "description": "Fill out the form below and we will get back to you as soon as possible.",
+                "fields": [
+                  {
+                    "id": "full-name",
+                    "name": "fullName",
+                    "label": "Full Name",
+                    "placeholder": "Enter your full name",
+                    "type": "text",
+                    "required": true
+                  },
+                  {
+                    "id": "email",
+                    "name": "email",
+                    "label": "Email Address",
+                    "placeholder": "Enter your email address",
+                    "type": "email",
+                    "required": true
+                  },
+                  {
+                    "id": "phone",
+                    "name": "phone",
+                    "label": "Phone Number",
+                    "placeholder": "Enter your phone number",
+                    "type": "tel",
+                    "required": true
+                  },
+                  {
+                    "id": "company",
+                    "name": "company",
+                    "label": "Company Name",
+                    "placeholder": "Enter your company name",
+                    "type": "text",
+                    "required": false
+                  }
+                ],
+                "subjectLabel": "Subject",
+                "subjectPlaceholder": "Select a subject",
+                "subjects": [
+                  {
+                    "value": "seo",
+                    "label": "Search Engine Optimization"
+                  },
+                  {
+                    "value": "social-media",
+                    "label": "Social Media Marketing"
+                  },
+                  {
+                    "value": "ppc",
+                    "label": "Pay Per Click"
+                  },
+                  {
+                    "value": "web-development",
+                    "label": "Website Development"
+                  },
+                  {
+                    "value": "branding",
+                    "label": "Branding & Design"
+                  }
+                ],
+                "messageLabel": "Message",
+                "messagePlaceholder": "Tell us about your project, goals, or any questions...",
+                "submitLabel": "Send Message"
+              },
+              "information": {
+                "title": "Contact Information",
+                "description": "Reach out to us through any of the following channels. We're always happy to help.",
+                "officeLabel": "Our Office",
+                "phoneLabel": "Call Us",
+                "emailLabel": "Email Us",
+                "followLabel": "Follow Us"
+              }
+            }
+          }
+        },
+        "Quote": {
+          "variants": {
+            "SEOQuote1": {
+              "form": {
+                "title": "Request Your Quote",
+                "description": "Fill out the form below and our team will get back to you with a customized solution and pricing based on your business needs.",
+                "fields": [
+                  {
+                    "id": "quote-name",
+                    "name": "name",
+                    "label": "Full Name",
+                    "placeholder": "Enter your full name",
+                    "type": "text",
+                    "required": true
+                  },
+                  {
+                    "id": "quote-email",
+                    "name": "email",
+                    "label": "Email Address",
+                    "placeholder": "Enter your email address",
+                    "type": "email",
+                    "required": true
+                  },
+                  {
+                    "id": "quote-phone",
+                    "name": "phone",
+                    "label": "Phone Number",
+                    "placeholder": "Enter your phone number",
+                    "type": "tel",
+                    "required": true
+                  },
+                  {
+                    "id": "quote-company",
+                    "name": "company",
+                    "label": "Company Name",
+                    "placeholder": "Enter your company name",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "id": "quote-website",
+                    "name": "website",
+                    "label": "Website URL",
+                    "placeholder": "https://yourwebsite.com",
+                    "type": "url",
+                    "required": false
+                  }
+                ],
+                "serviceLabel": "Select Service",
+                "servicePlaceholder": "Select a service",
+                "services": [
+                  {
+                    "value": "seo",
+                    "label": "Search Engine Optimization"
+                  },
+                  {
+                    "value": "social-media",
+                    "label": "Social Media Marketing"
+                  },
+                  {
+                    "value": "ppc",
+                    "label": "Pay Per Click Advertising"
+                  },
+                  {
+                    "value": "content",
+                    "label": "Content Marketing"
+                  },
+                  {
+                    "value": "web-development",
+                    "label": "Website Development"
+                  },
+                  {
+                    "value": "branding",
+                    "label": "Branding & Creative Design"
+                  }
+                ],
+                "budgetLabel": "Your Budget (Optional)",
+                "budgetPlaceholder": "Select your budget range",
+                "budgets": [
+                  {
+                    "value": "under-1000",
+                    "label": "Under $1,000"
+                  },
+                  {
+                    "value": "1000-5000",
+                    "label": "$1,000 - $5,000"
+                  },
+                  {
+                    "value": "5000-10000",
+                    "label": "$5,000 - $10,000"
+                  },
+                  {
+                    "value": "over-10000",
+                    "label": "Over $10,000"
+                  }
+                ],
+                "detailsLabel": "Project Details",
+                "detailsPlaceholder": "Tell us about your requirements, goals, and any specific details...",
+                "submitLabel": "Submit Request",
+                "asideImage": "/getquote/getqoute.png",
+                "asideTitle": "Let's Grow Your Business Together",
+                "asideDescription": "Our team will analyze your requirements and provide a customized strategy with the best pricing for your business.",
+                "benefits": [
+                  {
+                    "title": "Free Consultation",
+                    "description": "Discuss your goals with our experts",
+                    "icon": "message"
+                  },
+                  {
+                    "title": "Custom Strategy",
+                    "description": "Tailored plan as per your business needs",
+                    "icon": "file"
+                  },
+                  {
+                    "title": "Quick Response",
+                    "description": "We reply within 24 hours",
+                    "icon": "clock"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Location": {
+          "variants": {
+            "SEOLocation1": {
+              "mapUrl": "https://www.openstreetmap.org/export/embed.html?bbox=77.1800%2C28.5900%2C77.2350%2C28.6350&layer=mapnik&marker=28.6139%2C77.2090",
+              "directionsUrl": "https://maps.google.com/?q=123+Innovation+Street,+New+Delhi,+India+110001",
+              "mapTitle": "Map showing the SEOrbit office in New Delhi",
+              "businessName": "SEOrbit - SEO & Digital Marketing",
+              "address": "123 Innovation Street, New Delhi, India - 110001",
+              "directionsLabel": "View on Google Maps",
+              "officeTitle": "Our Office",
+              "officeImage": "/home/OfficeImages.png",
+              "officeImageAlt": "Bright modern office interior",
+              "description": "Visit our office to discuss your project in person. Our team is always ready to help you with the best digital marketing solutions.",
+              "amenities": [
+                {
+                  "title": "Parking Available",
+                  "description": "Free parking for visitors",
+                  "icon": "car"
+                },
+                {
+                  "title": "Refreshments",
+                  "description": "Complimentary coffee & tea",
+                  "icon": "coffee"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Topbar": "SEOTopBar1",
+          "Header": "SEOHeader1",
+          "Footer": "Footer"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "HeroSection",
+                "component": "SEOHero1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "SEOAboutUs1"
+              },
+              {
+                "key": "Process",
+                "component": "SEOProcess1"
+              },
+              {
+                "key": "Services",
+                "component": "SEOServices1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "SEOTestimonials1"
+              },
+              {
+                "key": "Blogs",
+                "component": "SEOBlogs1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "AboutUs",
+                "component": "SEOAboutUs2"
+              },
+              {
+                "key": "Process",
+                "component": "SEOProcess1"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "Services",
+                "component": "SEOServices2"
+              }
+            ]
+          },
+          "portfolio": {
+            "components": [
+              {
+                "key": "Portfolio",
+                "component": "SEOPortfolio1"
+              }
+            ]
+          },
+          "blog": {
+            "components": [
+              {
+                "key": "Blogs",
+                "component": "SEOBlogs1"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Contact",
+                "component": "SEOContact1"
+              },
+              {
+                "key": "Location",
+                "component": "SEOLocation1"
+              }
+            ]
+          },
+          "quote": {
+            "components": [
+              {
+                "key": "Quote",
+                "component": "SEOQuote1"
+              }
+            ]
+          }
+        }
+      }
+    }
   },
-  "hero": {
-    "badge": "Result Driven Agency",
-    "title": [
-      "Digital Marketing",
-      "Agency for Real",
-      "Business Growth"
-    ],
-    "image": "/home/heroimage.png",
-    "imageAlt": "A team working together at laptops in a bright office",
-    "description": "We help businesses grow online with result-driven SEO, social media, and digital marketing strategies that deliver real results.",
-    "quoteLabel": "Get A Quote",
-    "quoteHref": "mailto:info@xyz.com?subject=Get%20a%20quote",
-    "videoLabel": "Watch Video",
-    "videoHref": "https://www.youtube.com/results?search_query=SEOrbit+digital+marketing",
-    "stats": [
-      { "amount": "250+", "label": "Happy Clients", "key": "users" },
-      { "amount": "500+", "label": "Projects Done", "key": "file" },
-      { "amount": "5+", "label": "Years Experience", "key": "trophy" }
-    ]
-  },
-  "pageHeroes": {
-    "about": { "title": "About Us", "breadcrumb": "About", "image": "/blogs/blogsheroImages.png", "imageAlt": "About Us" },
-    "blogs": { "title": "Blogs", "breadcrumb": "Blogs", "image": "/blogs/blogsheroImages.png", "imageAlt": "Blogs" },
-    "contact": { "title": "Contact Us", "breadcrumb": "Contact Us", "image": "/blogs/blogsheroImages.png", "imageAlt": "SEOrbit Contact Us" },
-    "quote": { "title": "Get A Quote", "breadcrumb": "Get A Quote", "image": "/blogs/blogsheroImages.png", "imageAlt": "SEOrbit Contact Us" },
-    "portfolio": { "title": "Portfolio", "breadcrumb": "Portfolio", "image": "/portfolio/Portfliohero.png", "imageAlt": "Portfolio" },
-    "blogDetails": { "title": "Blogs Details", "breadcrumb": "Blogs Details", "image": "/blogs/blogsheroImages.png", "imageAlt": "Digital marketing articles", "parentLabel": "Blogs", "parentHref": "/blogs" }
-  },
-  "about": {
-    "page": {
-      "image": "/aboutus/aboutus.png",
-      "imageAlt": "Business owner working in a bright, plant-filled workspace",
-      "eyebrow": "ABOUT US",
-      "title": "Your Growth Partner in",
-      "highlightTitle": "Digital Marketing",
-      "description": [
-        "We are a result-driven digital marketing agency focused on helping businesses grow online. From strategic SEO and targeted social media to performance-driven campaigns, we create tailored solutions that bring real results and long-term success."
-      ],
-      "clientCount": "4.5k+",
-      "clientLabel": "Satisfied Clients",
-      "avatarCount": 4,
-      "ctaLabel": "Learn More",
-      "ctaHref": "#about"
-    },
+  "pages": {
     "home": {
-      "image": "/aboutus/aboutus.png",
-      "imageAlt": "Our team",
-      "eyebrow": "ABOUT US",
-      "title": "Your Growth Partner in",
-      "highlightTitle": "Digital Marketing",
-      "description": [
-        "We are a result-driven digital marketing agency focused on helping businesses grow online. From strategic SEO and targeted social media to performance-driven campaigns, we create tailored solutions that bring real results and long-term success."
-      ],
-      "clientCount": "4.5k+",
-      "clientLabel": "Satisfied Clients",
-      "avatarCount": 4,
-      "ctaLabel": "Read More",
-      "ctaHref": "/aboutus",
-      "features": [
-        { "title": "Experienced Team", "description": "Our experts bring years of industry experience to deliver strategies that work.", "icon": "users" },
-        { "title": "Dedicated Support", "description": "We’re always here to guide you with quick and reliable support.", "icon": "support" }
-      ],
-      "buttonLabel": "Read More",
-      "buttonHref": "/aboutus"
-    }
-  },
-  "process": {
-    "eyebrow": "How It Works",
-    "title": "A Simple Process to",
-    "highlightTitle": "Get Real Results",
-    "description": "We follow a clear and proven process to understand your business, create the right strategy, and deliver measurable growth.",
-    "arrowImage": "/home/forward.jpg",
-    "steps": [
-      { "title": "Discover & Plan", "description": "We understand your business goals, analyze your current performance, and create a custom strategy.", "image": "/home/howtowork.png", "alt": "Business owners discussing their goals", "icon": "comments" },
-      { "title": "Strategize & Create", "description": "Our team develops a tailored marketing plan and creates high-performing campaigns for your audience.", "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=600&q=85", "alt": "Marketing analytics dashboard on a laptop", "icon": "settings" },
-      { "title": "Implement & Optimize", "description": "We launch campaigns, monitor performance, and continuously optimize for better results and higher ROI.", "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&h=600&q=85", "alt": "Digital performance charts on a screen", "icon": "chart" },
-      { "title": "Achieve Growth", "description": "Get measurable results, more leads, higher conversions, and long-term business growth.", "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=600&h=600&q=85", "alt": "A bright modern workspace for a growing business", "icon": "trophy" }
-    ]
-  },
-  "homeServices": {
-    "eyebrow": "Our Services",
-    "title": "Digital Solutions to",
-    "highlightTitle": "Grow Your Business",
-    "description": "We offer end-to-end digital marketing services designed to increase your online presence, attract the right audience, and deliver measurable results.",
-    "items": [
-      { "id": "service-seo", "title": "Search Engine Optimization", "description": "Improve your website’s visibility and rank higher on search engines with proven SEO strategies.", "more": "We combine technical SEO, content planning, and ongoing optimization to help the right customers find your business.", "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&h=460&q=85", "alt": "SEO analytics displayed on a laptop", "icon": "chart", "href": "/services/search-engine-optimization" },
-      { "id": "service-social-media", "title": "Social Media Marketing", "description": "Engage your audience and build a strong brand presence across all major social platforms.", "more": "From channel strategy to creative campaigns, we help your brand show up consistently and build a community.", "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=800&h=460&q=85", "alt": "Social media apps displayed on a phone", "icon": "megaphone", "href": "/services/social-media-marketing" },
-      { "id": "service-paid-ads", "title": "Pay Per Click Advertising", "description": "Drive targeted traffic and get instant results with data-driven PPC campaigns.", "more": "We plan, launch, and refine paid campaigns around your goals, with clear measurement for every click and conversion.", "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&h=460&q=85", "alt": "Performance charts on a digital dashboard", "icon": "pointer", "href": "/services/pay-per-click" },
-      { "id": "service-branding", "title": "Branding & Creative Design", "description": "Build a memorable brand identity with impactful designs that connect and convert.", "more": "We shape cohesive visual identities and creative assets that make your business recognizable across every channel.", "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&h=460&q=85", "alt": "A designer creating a visual brand identity", "icon": "pen", "href": "/services/branding-creative-design" }
-    ],
-    "readMoreLabel": "Read More",
-    "previousLabel": "First service",
-    "nextLabel": "Last service",
-    "jumpLabel": "Jump to a service"
-  },
-  "servicesPage": {
-    "eyebrow": "Our Services",
-    "title": "Digital Solutions to",
-    "highlightTitle": "Grow Your Business",
-    "description": "We offer end-to-end digital marketing services designed to increase your online presence, attract the right audience, and deliver measurable results.",
-    "readMoreLabel": "Read More",
-    "items": [
-      { "title": "Search Engine Optimization", "description": "Improve your website's visibility and rank higher on search engines with proven SEO strategies.", "image": "/portfolio/seo.png", "alt": "Search engine optimization", "icon": "chart", "href": "/services/search-engine-optimization" },
-      { "title": "Social Media Marketing", "description": "Engage your audience and build a strong brand presence across all major social platforms.", "image": "/portfolio/socialmedia.png", "alt": "Social media marketing", "icon": "megaphone", "href": "/services/social-media-marketing" },
-      { "title": "Pay Per Click Advertising", "description": "Drive targeted traffic and get instant results with data-driven PPC campaigns.", "image": "/portfolio/ppc.png", "alt": "Pay per click advertising", "icon": "pointer", "href": "/services/pay-per-click" },
-      { "title": "Branding & Creative Design", "description": "Build a memorable brand identity with impactful designs that connect and convert.", "image": "/portfolio/brand.png", "alt": "Branding and creative design", "icon": "pen", "href": "/services/branding-creative-design" }
-    ]
-  },
-  "portfolio": {
-    "eyebrow": "Our Work",
-    "title": "Results That",
-    "highlightTitle": "Speak for Themselves",
-    "description": "Explore some of the projects and campaigns that have helped businesses grow, attract customers, and achieve measurable results.",
-    "items": [
-      { "category": "SEO", "title": "E-Commerce Website Growth", "description": "Increased organic traffic and sales for an online fashion store with a complete SEO strategy.", "image": "/portfolio/Ecom.png", "stats": [{ "value": "250%", "label": "Organic Traffic" }, { "value": "180%", "label": "Revenue" }, { "value": "120+", "label": "Keywords Ranked" }] },
-      { "category": "Website Development", "title": "Real Estate Website Development", "description": "Built a modern, SEO-friendly website for a real estate company with lead generation integration.", "image": "/portfolio/Realstate.png", "stats": [{ "value": "300%", "label": "Leads Generated" }, { "value": "70%", "label": "Bounce Rate ↓" }, { "value": "200+", "label": "Property Listings" }] },
-      { "category": "Social Media Marketing", "title": "Social Media Brand Awareness", "description": "Boosted brand visibility and engagement for a lifestyle brand through targeted social media campaigns.", "image": "/portfolio/socialmedia.png", "stats": [{ "value": "400%", "label": "Engagement" }, { "value": "250%", "label": "Followers" }, { "value": "3X", "label": "Brand Mentions" }] },
-      { "category": "PPC", "title": "Google Ads Lead Generation", "description": "Generated high-quality leads for a B2B company through targeted Google Ads campaigns.", "image": "/portfolio/googleads.png", "stats": [{ "value": "300%", "label": "Lead Conversion" }, { "value": "50%", "label": "Cost Reduction" }, { "value": "150+", "label": "Qualified Leads" }] },
-      { "category": "SEO", "title": "Health care Website SEO", "description": "Optimized a healthcare website for search engines, resulting in increased visibility and patient inquiries.", "image": "/portfolio/healthcare.png", "stats": [{ "value": "200%", "label": "Organic Traffic" }] },
-      { "category": "Content Marketing", "title": "Travel Blog Content Strategy", "description": "Developed a comprehensive content strategy for a travel blog, resulting in increased readership and engagement.", "image": "/portfolio/healthcare.png", "stats": [{ "value": "250%", "label": "Readership" }, { "value": "150%", "label": "Engagement" }, { "value": "100+", "label": "Content Pieces" }] },
-      { "category": "Website Development", "title": "Restaurant Website Redesign", "description": "Redesigned a restaurant website to improve user experience, online reservations, and local SEO.", "image": "/portfolio/fooddevelivery.png", "stats": [{ "value": "300%", "label": "Online Reservations" }, { "value": "80%", "label": "Bounce Rate ↓" }, { "value": "50+", "label": "Menu Items" }] },
-      { "category": "SEO", "title": "Financial Company SEO", "description": "Optimized a financial services website for search engines, resulting in increased visibility and client inquiries.", "image": "/portfolio/healthcare.png", "stats": [{ "value": "200%", "label": "Organic Traffic" }] },
-      { "category": "Social Media Marketing", "title": "Educations Institutions Social Media", "description": "Boosted brand visibility and engagement for an educational institution through targeted social media campaigns.", "image": "/portfolio/Educationsmedia.png", "stats": [{ "value": "400%", "label": "Engagement" }, { "value": "250%", "label": "Followers" }, { "value": "3X", "label": "Brand Mentions" }] }
-    ]
-  },
-  "testimonials": {
-    "eyebrow": "Testimonials",
-    "title": "What Our",
-    "highlightTitle": "Clients Say",
-    "description": "Real stories. Real results. Here’s what our clients have to say about working with us.",
-    "items": [
-      { "quote": "Working with this team has been a game-changer for our business. Their strategic approach and dedication helped us achieve results beyond our expectations. Highly professional and easy to work with!", "name": "Sarah Mitchell", "role": "CEO, BrightWave Solutions", "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&h=160&q=85", "alt": "Sarah Mitchell" },
-      { "quote": "Their expertise and data-driven strategies significantly improved our online presence. The team understood our goals perfectly and delivered exceptional results. We couldn’t be happier with the partnership!", "name": "James Carter", "role": "Founder, NextGen Labs", "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=160&h=160&q=85", "alt": "James Carter" },
-      { "quote": "From the initial consultation to ongoing support, everything has been seamless. Their innovative ideas and consistent communication made the entire process smooth and effective. I highly recommend their services!", "name": "Emily Rodriguez", "role": "Marketing Head, Sphere Media", "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=160&h=160&q=85", "alt": "Emily Rodriguez" }
-    ]
-  },
-  "blogsSection": {
-    "eyebrow": "Blogs",
-    "title": "Latest Insights &",
-    "highlightTitle": "Updates",
-    "description": "Stay updated with the latest trends, tips, and strategies in digital marketing to grow your business online.",
-    "readMoreLabel": "Read More"
-  },
-  "blogArticles": [
-    { "id": "blog-seo-strategies", "slug": "seo-strategies-website-traffic", "category": "SEO", "date": "April 12, 2025", "title": "10 Proven SEO Strategies to Boost Your Website Traffic", "description": "Discover effective SEO techniques that can help your website rank higher and attract more organic traffic in 2025.", "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&h=640&q=85", "alt": "SEO analytics on a laptop screen", "intro": "In today’s digital world, having a website is not enough. To attract potential customers and grow your business, you need to ensure your website appears near the top of search engine results. Search Engine Optimization (SEO) is the key to achieving higher visibility, more organic traffic, and long-term success.", "sections": [{ "heading": "Conduct Keyword Research", "body": "Keyword research is the foundation of any successful SEO strategy. Identify the terms your target audience is searching for and incorporate them naturally into your website content, headings, and metadata." }, { "heading": "Optimize On-Page SEO", "body": "On-page SEO includes optimizing your title tags, meta descriptions, headings, images, and content structure. A well-optimized page helps search engines understand your content and rank it higher." }, { "heading": "Create High-Quality Content", "body": "Publish informative, engaging, and original content that provides real value to your audience. Useful content attracts visitors and gives them a reason to stay on your site." }, { "heading": "Build High-Quality Backlinks", "body": "Backlinks from reputable websites signal that your content is trustworthy. Focus on earning relevant links through useful resources, collaborations, and shareable content." }] },
-    { "id": "blog-social-media", "slug": "social-media-marketing-brand-growth", "category": "Social Media", "date": "April 8, 2025", "title": "How Social Media Marketing Can Grow Your Brand in 2025", "description": "Learn how to leverage social media platforms to increase brand awareness, engage your audience, and drive real business growth.", "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=1200&h=640&q=85", "alt": "Social media apps shown on a smartphone", "intro": "Social media gives businesses a direct way to build awareness, share useful ideas, and stay connected with customers. A thoughtful strategy turns scattered posting into a consistent brand experience that supports real business goals.", "sections": [{ "heading": "Choose the Right Platforms", "body": "Focus on the platforms your customers use most. Matching your channel to your audience helps every post, conversation, and campaign work harder." }, { "heading": "Build a Consistent Content Plan", "body": "Create a balanced calendar of useful, engaging, and brand-led content. A consistent cadence helps people know what to expect from your business." }, { "heading": "Engage With Your Community", "body": "Respond to questions, join relevant conversations, and listen to feedback. Active engagement helps turn followers into a real community around your brand." }, { "heading": "Measure and Refine", "body": "Review reach, engagement, and conversions regularly. Use what you learn to improve future content and invest in the campaigns that perform best." }] },
-    { "id": "blog-ppc-guide", "slug": "ppc-advertising-better-roi", "category": "PPC", "date": "April 5, 2025", "title": "A Complete Guide to PPC Advertising for Better ROI", "description": "Explore how PPC advertising works, its benefits, and the best practices to get maximum return on your investment.", "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&h=640&q=85", "alt": "PPC performance analytics on a dashboard", "intro": "Pay-per-click advertising can put your business in front of people who are actively looking for what you offer. A strong campaign starts with clear goals and improves through careful measurement and ongoing optimization.", "sections": [{ "heading": "Set Clear Campaign Goals", "body": "Decide whether your campaign should generate leads, sales, or qualified visits. Clear goals help you choose the right campaign structure and evaluate performance." }, { "heading": "Reach High-Intent Audiences", "body": "Use focused keywords and audience signals to connect with people who are most likely to need your products or services." }, { "heading": "Write Relevant Ads", "body": "Make your ads specific to the search or audience. Clear messaging and a relevant landing page create a smoother path from click to conversion." }, { "heading": "Optimize for Better ROI", "body": "Track conversions, review spend, and test improvements to bids, targeting, and creative. Small data-led adjustments can improve campaign efficiency over time." }] },
-    { "id": "blog-local-seo", "slug": "local-seo-small-business-guide", "category": "SEO", "date": "April 1, 2025", "title": "A Practical Local SEO Guide for Small Businesses", "description": "Simple steps to help nearby customers find and choose your business online.", "image": "/home/heroimage.png", "alt": "Business owner planning an online growth strategy", "intro": "Local search helps customers discover nearby businesses when they need a product or service. A clear, accurate online presence makes it easier for people to find you and take the next step.", "sections": [{ "heading": "Complete Your Business Profile", "body": "Keep your business name, address, phone number, hours, and services accurate. Add current photos and answer common customer questions." }, { "heading": "Create Useful Local Pages", "body": "Explain the services you provide and the areas you serve. Each page should offer useful information rather than repeating location names without context." }, { "heading": "Ask for Customer Reviews", "body": "Invite satisfied customers to share honest feedback and respond thoughtfully. Consistent responses show that your business listens and cares." }, { "heading": "Keep Information Consistent", "body": "Review business details across directories and social profiles. Accurate information helps customers reach you and supports a dependable local presence." }] }
-  ],
-  "serviceDetails": [
-    { "slug": "search-engine-optimization", "title": "Search Engine Optimization", "shortTitle": "SEO", "image": "/portfolio/seo.png", "icon": "search", "description": "Our SEO services are designed to help businesses improve their search engine rankings, increase organic traffic, and generate more qualified leads. We use proven strategies, ethical techniques, and data-driven insights to ensure sustainable growth for your online presence.", "secondary": "From comprehensive keyword research to on-page optimization, technical SEO, and high-quality link building, our team handles every aspect of SEO to help your business stay ahead of the competition.", "processTitle": "How Our SEO Process Works", "processDescription": "We follow a strategic and transparent process to deliver measurable SEO results for your business.", "steps": ["Website Analysis", "Keyword Research", "Implementation", "Monitoring & Growth"], "features": [{ "title": "On-Page SEO", "description": "Optimize your website content, structure, and metadata for better rankings.", "icon": "file" }, { "title": "Off-Page SEO", "description": "Build high-quality backlinks and increase your domain authority.", "icon": "link" }, { "title": "Technical SEO", "description": "Improve website speed, mobile-friendliness, and overall technical health.", "icon": "settings" }, { "title": "Monthly Reporting", "description": "Get detailed reports with insights and progress updates.", "icon": "chart" }] },
-    { "slug": "social-media-marketing", "title": "Social Media Marketing", "shortTitle": "Social Media", "image": "/portfolio/socialmedia.png", "icon": "users", "description": "Build a recognizable brand and meaningful relationships with your audience. Our social media marketing services combine channel strategy, creative content, and audience insights to turn attention into long-term customer relationships.", "secondary": "We plan and manage campaigns across the platforms that matter to your customers, keep your publishing consistent, and use performance data to improve engagement over time.", "processTitle": "How Our Social Media Process Works", "processDescription": "A clear content and campaign process keeps your brand relevant, consistent, and measurable.", "steps": ["Audience Research", "Channel Strategy", "Content & Campaigns", "Measure & Improve"], "features": [{ "title": "Content Planning", "description": "Create a consistent calendar shaped around your audience and goals.", "icon": "file" }, { "title": "Community Growth", "description": "Build stronger relationships through timely, thoughtful engagement.", "icon": "users" }, { "title": "Paid Social", "description": "Reach relevant audiences with carefully targeted campaigns.", "icon": "pointer" }, { "title": "Performance Reports", "description": "Understand reach, engagement, and campaign results at a glance.", "icon": "chart" }] },
-    { "slug": "pay-per-click", "title": "Pay Per Click Advertising", "shortTitle": "PPC", "image": "/portfolio/ppc.png", "icon": "pointer", "description": "Reach high-intent customers with pay-per-click campaigns built around your business goals. We structure, launch, and manage paid search campaigns to attract qualified traffic and turn clicks into measurable actions.", "secondary": "From keyword and audience selection to ad creative, landing page alignment, and ongoing bid optimization, every decision is guided by campaign performance.", "processTitle": "How Our PPC Process Works", "processDescription": "We build focused advertising campaigns, measure what matters, and optimize for better returns.", "steps": ["Goal & Audience Setup", "Campaign Planning", "Launch & Testing", "Optimize & Scale"], "features": [{ "title": "Search Campaigns", "description": "Connect with people actively searching for your products or services.", "icon": "search" }, { "title": "Audience Targeting", "description": "Focus spend on audiences most likely to take action.", "icon": "target" }, { "title": "Conversion Tracking", "description": "Measure leads and sales to understand campaign impact.", "icon": "gauge" }, { "title": "Ongoing Optimization", "description": "Refine bids, ads, and targeting using campaign data.", "icon": "trending" }] },
-    { "slug": "branding-creative-design", "title": "Branding & Creative Design", "shortTitle": "Branding & Design", "image": "/portfolio/brand.png", "icon": "pen", "description": "Create a memorable brand identity that helps your business stand out and communicate with confidence. We bring strategy and visual design together to make your brand clear, consistent, and recognizable.", "secondary": "From visual direction and brand assets to campaign creative, we build a cohesive experience that connects with customers across your digital channels.", "processTitle": "How Our Branding Process Works", "processDescription": "We turn your business goals and personality into a distinctive, cohesive brand system.", "steps": ["Discover & Research", "Creative Direction", "Design & Refine", "Deliver Brand Assets"], "features": [{ "title": "Brand Strategy", "description": "Clarify your positioning, audience, and the story your brand tells.", "icon": "target" }, { "title": "Visual Identity", "description": "Create a consistent visual language for your business.", "icon": "pen" }, { "title": "Campaign Creative", "description": "Develop digital assets that support your marketing campaigns.", "icon": "file" }, { "title": "Brand Consistency", "description": "Keep every customer touchpoint aligned with your identity.", "icon": "check" }] }
-  ],
-  "serviceDetailsPage": {
-    "overviewLabel": "Overview",
-    "processLabel": "Our Process",
-    "featuresLabel": "What You Get",
-    "exploreLabel": "Explore",
-    "servicesLabel": "Our Services",
-    "needHelpLabel": "Need Help?",
-    "helpDescription": "Have questions? Our team is here to help you choose the right solution for your business.",
-    "quoteLabel": "Get A Quote",
-    "homeLabel": "Home",
-    "breadcrumbLabel": "Services",
-    "featureHeadingPrefix": "Key Features of Our",
-    "featureHeadingSuffix": "Services",
-    "bannerImage": "/home/heroimage.png",
-    "bannerImageAlt": "Marketing team planning a digital growth strategy"
-  },
-  "portfolioDetailsPage": {
-    "overviewLabel": "Project Overview",
-    "secondaryDescription": "Our team started with a detailed audit of the client's goals, audience, and competitors, then built a focused plan with clear milestones. Every decision was guided by data, and progress was tracked closely so we could refine the approach and maximize results.",
-    "processLabel": "Our Approach",
-    "processTitle": "How We Delivered Results",
-    "processDescription": "A clear, step-by-step process kept the project on track from the first call to the final report.",
-    "steps": ["Research & Audit", "Strategy & Planning", "Execution & Optimization", "Reporting & Growth"],
-    "resultsLabel": "Project Results",
-    "resultsTitle": "A Measurable Difference",
-    "exploreLabel": "Explore",
-    "projectsLabel": "Our Projects",
-    "homeLabel": "Home",
-    "breadcrumbLabel": "Portfolio",
-    "quoteLabel": "Discuss a Similar Project"
-  },
-  "blogDetailsPage": { "breadcrumbLabel": "Blogs Details", "relatedLabel": "Related Blogs", "readMoreLabel": "Read More", "homeLabel": "Home", "parentLabel": "Blogs", "exploreLabel": "Explore" },
-  "contactPage": {
-    "form": {
-      "title": "Send Us a Message",
-      "description": "Fill out the form below and we will get back to you as soon as possible.",
-      "fields": [
-        { "id": "full-name", "name": "fullName", "label": "Full Name", "placeholder": "Enter your full name", "type": "text", "required": true },
-        { "id": "email", "name": "email", "label": "Email Address", "placeholder": "Enter your email address", "type": "email", "required": true },
-        { "id": "phone", "name": "phone", "label": "Phone Number", "placeholder": "Enter your phone number", "type": "tel", "required": true },
-        { "id": "company", "name": "company", "label": "Company Name", "placeholder": "Enter your company name", "type": "text", "required": false }
-      ],
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "Select a subject",
-      "subjects": [{ "value": "seo", "label": "Search Engine Optimization" }, { "value": "social-media", "label": "Social Media Marketing" }, { "value": "ppc", "label": "Pay Per Click" }, { "value": "web-development", "label": "Website Development" }, { "value": "branding", "label": "Branding & Design" }],
-      "messageLabel": "Message",
-      "messagePlaceholder": "Tell us about your project, goals, or any questions...",
-      "submitLabel": "Send Message"
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "SEOTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "SEOHeader1"
+        },
+        {
+          "key": "Hero",
+          "component": "SEOHero1"
+        },
+        {
+          "key": "AboutUs",
+          "component": "SEOAboutUs1"
+        },
+        {
+          "key": "Process",
+          "component": "SEOProcess1"
+        },
+        {
+          "key": "Services",
+          "component": "SEOServices1"
+        },
+        {
+          "key": "Testimonials",
+          "component": "SEOTestimonials1"
+        },
+        {
+          "key": "Blogs",
+          "component": "SEOBlogs1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
     },
-    "information": {
-      "title": "Contact Information",
-      "description": "Reach out to us through any of the following channels. We're always happy to help.",
-      "officeLabel": "Our Office",
-      "phoneLabel": "Call Us",
-      "emailLabel": "Email Us",
-      "followLabel": "Follow Us"
+    "about": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "SEOTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "SEOHeader1"
+        },
+        {
+          "key": "Breadcrumb",
+          "component": "Breadcrumb"
+        },
+        {
+          "key": "AboutUs",
+          "component": "SEOAboutUs2"
+        },
+        {
+          "key": "Process",
+          "component": "SEOProcess1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "services": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "SEOTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "SEOHeader1"
+        },
+        {
+          "key": "Breadcrumb",
+          "component": "Breadcrumb"
+        },
+        {
+          "key": "Services",
+          "component": "SEOServices2"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "service_detail": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "SEOTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "SEOHeader1"
+        },
+        {
+          "key": "ServiceDetail",
+          "component": "ServiceDetail"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "portfolio": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "SEOTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "SEOHeader1"
+        },
+        {
+          "key": "Breadcrumb",
+          "component": "Breadcrumb"
+        },
+        {
+          "key": "Portfolio",
+          "component": "SEOPortfolio1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "portfolio_detail": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "SEOTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "SEOHeader1"
+        },
+        {
+          "key": "PortfolioDetail",
+          "component": "PortfolioDetail"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "blog": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "SEOTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "SEOHeader1"
+        },
+        {
+          "key": "Breadcrumb",
+          "component": "Breadcrumb"
+        },
+        {
+          "key": "Blogs",
+          "component": "SEOBlogs1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "blog_detail": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "SEOTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "SEOHeader1"
+        },
+        {
+          "key": "BlogDetail",
+          "component": "BlogDetail"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "contact": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "SEOTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "SEOHeader1"
+        },
+        {
+          "key": "Breadcrumb",
+          "component": "Breadcrumb"
+        },
+        {
+          "key": "Contact",
+          "component": "SEOContact1"
+        },
+        {
+          "key": "Location",
+          "component": "SEOLocation1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "quote": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "SEOTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "SEOHeader1"
+        },
+        {
+          "key": "Breadcrumb",
+          "component": "Breadcrumb"
+        },
+        {
+          "key": "Quote",
+          "component": "SEOQuote1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
     }
-  },
-  "quotePage": {
-    "form": {
-      "title": "Request Your Quote",
-      "description": "Fill out the form below and our team will get back to you with a customized solution and pricing based on your business needs.",
-      "fields": [
-        { "id": "quote-name", "name": "name", "label": "Full Name", "placeholder": "Enter your full name", "type": "text", "required": true },
-        { "id": "quote-email", "name": "email", "label": "Email Address", "placeholder": "Enter your email address", "type": "email", "required": true },
-        { "id": "quote-phone", "name": "phone", "label": "Phone Number", "placeholder": "Enter your phone number", "type": "tel", "required": true },
-        { "id": "quote-company", "name": "company", "label": "Company Name", "placeholder": "Enter your company name", "type": "text", "required": false },
-        { "id": "quote-website", "name": "website", "label": "Website URL", "placeholder": "https://yourwebsite.com", "type": "url", "required": false }
-      ],
-      "serviceLabel": "Select Service",
-      "servicePlaceholder": "Select a service",
-      "services": [{ "value": "seo", "label": "Search Engine Optimization" }, { "value": "social-media", "label": "Social Media Marketing" }, { "value": "ppc", "label": "Pay Per Click Advertising" }, { "value": "content", "label": "Content Marketing" }, { "value": "web-development", "label": "Website Development" }, { "value": "branding", "label": "Branding & Creative Design" }],
-      "budgetLabel": "Your Budget (Optional)",
-      "budgetPlaceholder": "Select your budget range",
-      "budgets": [{ "value": "under-1000", "label": "Under $1,000" }, { "value": "1000-5000", "label": "$1,000 - $5,000" }, { "value": "5000-10000", "label": "$5,000 - $10,000" }, { "value": "over-10000", "label": "Over $10,000" }],
-      "detailsLabel": "Project Details",
-      "detailsPlaceholder": "Tell us about your requirements, goals, and any specific details...",
-      "submitLabel": "Submit Request",
-      "asideImage": "/getquote/getqoute.png",
-      "asideTitle": "Let's Grow Your Business Together",
-      "asideDescription": "Our team will analyze your requirements and provide a customized strategy with the best pricing for your business.",
-      "benefits": [{ "title": "Free Consultation", "description": "Discuss your goals with our experts", "icon": "message" }, { "title": "Custom Strategy", "description": "Tailored plan as per your business needs", "icon": "file" }, { "title": "Quick Response", "description": "We reply within 24 hours", "icon": "clock" }]
-    }
-  },
-  "location": {
-    "mapUrl": "https://www.openstreetmap.org/export/embed.html?bbox=77.1800%2C28.5900%2C77.2350%2C28.6350&layer=mapnik&marker=28.6139%2C77.2090",
-    "directionsUrl": "https://maps.google.com/?q=123+Innovation+Street,+New+Delhi,+India+110001",
-    "mapTitle": "Map showing the SEOrbit office in New Delhi",
-    "businessName": "SEOrbit - SEO & Digital Marketing",
-    "address": "123 Innovation Street, New Delhi, India - 110001",
-    "directionsLabel": "View on Google Maps",
-    "officeTitle": "Our Office",
-    "officeImage": "/home/OfficeImages.png",
-    "officeImageAlt": "Bright modern office interior",
-    "description": "Visit our office to discuss your project in person. Our team is always ready to help you with the best digital marketing solutions.",
-    "amenities": [{ "title": "Parking Available", "description": "Free parking for visitors", "icon": "car" }, { "title": "Refreshments", "description": "Complimentary coffee & tea", "icon": "coffee" }]
   }
 }

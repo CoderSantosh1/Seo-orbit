@@ -14,7 +14,7 @@ const featureIconMap = {
 } as const;
 const avatarImages = [
   ...testimonialsContent.items.map((item) => item.image),
-  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=160&h=160&q=85",
+  "/avatars/client-avatar-4.jpg",
 ];
 
 export default function AboutUs(props: AboutUsProps) {

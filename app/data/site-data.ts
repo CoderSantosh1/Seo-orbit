@@ -1,7 +1,45 @@
 import categoryData from "./category.json";
 import type { SiteData } from "@/app/types/site";
 
-export const siteData = categoryData as SiteData;
+const { common } = categoryData;
+const sections = categoryData.categories.SEO.sections;
+const { navLinks, ...headerUi } = sections.Header.variants.SEOHeader1;
+const { blogs, ...blogsSection } = sections.Blogs.variants.SEOBlogs1;
+
+export const siteData = {
+	metadata: common.metadata,
+	navigation: navLinks,
+	header: sections.TopBar.variants.SEOTopBar1,
+	footer: common.Footer,
+	navigationUi: headerUi,
+	hero: sections.Hero.variants.SEOHero1,
+	pageHeroes: {
+		about: common.aboutBreadcrumb,
+		blogs: common.blogBreadcrumb,
+		contact: common.contactBreadcrumb,
+		quote: common.quoteBreadcrumb,
+		portfolio: common.portfolioBreadcrumb,
+		blogDetails: common.blogDetailBreadcrumb,
+	},
+	about: {
+		home: sections.AboutUs.variants.SEOAboutUs1,
+		page: sections.AboutUs.variants.SEOAboutUs2,
+	},
+	process: sections.Process.variants.SEOProcess1,
+	homeServices: sections.Services.variants.SEOServices1,
+	servicesPage: sections.Services.variants.SEOServices2,
+	portfolio: sections.Portfolio.variants.SEOPortfolio1,
+	testimonials: sections.Testimonials.variants.SEOTestimonials1,
+	blogsSection,
+	blogArticles: blogs,
+	serviceDetails: Object.values(sections.ServiceDetail.variants),
+	serviceDetailsPage: common.serviceDetailPage,
+	portfolioDetailsPage: common.portfolioDetailPage,
+	blogDetailsPage: common.blogDetailPage,
+	contactPage: sections.Contact.variants.SEOContact1,
+	quotePage: sections.Quote.variants.SEOQuote1,
+	location: sections.Location.variants.SEOLocation1,
+} as SiteData;
 
 export const navigationItems = siteData.navigation;
 export const navigationUi = siteData.navigationUi;
