@@ -5,6 +5,8 @@ import { CalendarDays, ChevronRight } from "lucide-react";
 import PageBanner from "@/app/components/PageBanner";
 import { articles, blogDetailsPage, pageHeroes } from "@/app/data/site-data";
 
+const bodyTextClass = "text-base leading-8 text-slate-600";
+
 export function generateStaticParams() {
 	return articles.map(({ slug }) => ({ slug }));
 }
@@ -29,23 +31,21 @@ export default async function BlogDetailsPage({
 
 			<main className="bg-white px-4 py-10 sm:px-6 sm:py-14 lg:py-16">
 				<article className="mx-auto max-w-[1060px]">
-					<div className="relative aspect-[1.85/1] overflow-hidden rounded-lg bg-slate-100">
-						<Image src={article.image} alt={article.alt} fill priority className="object-cover" sizes="(max-width: 1100px) 100vw, 1060px" />
-					</div>
-					<div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-slate-500">
-						<span className="rounded bg-[#f21f27] px-2.5 py-1 text-xs font-bold text-white">{article.category}</span>
-						<span className="inline-flex items-center gap-2"><CalendarDays size={16} className="text-[#f21f27]" aria-hidden="true" /><time>{article.date}</time></span>
-					</div>
-					<h2 className="mt-4 text-3xl font-bold leading-tight text-[#101722] sm:text-4xl">{article.title}</h2>
-					<div className="mt-5 space-y-4 text-base leading-7 text-slate-600">
-						<p>{article.intro}</p>
-						<p>{article.description}</p>
-					</div>
-					<div className="mt-7 space-y-6">
-						{article.sections.map((section, index) => (
-							<section key={section.heading}>
-								<h3 className="text-xl font-bold leading-snug text-[#101722] sm:text-2xl">{index + 1}. {section.heading}</h3>
-								<p className="mt-2 text-base leading-7 text-slate-600">{section.body}</p>
+					<div className="mx-auto max-w-[760px]">
+						<div className="relative aspect-[16/9] overflow-hidden rounded-lg bg-slate-100">
+							<Image src={article.image} alt={article.alt} fill priority className="object-cover" sizes="(max-width: 800px) 100vw, 760px" />
+						</div>
+						<div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-slate-500">
+							<span className="rounded bg-[#f21f27] px-2.5 py-1 text-xs font-bold text-white">{article.category}</span>
+							<span className="inline-flex items-center gap-2"><CalendarDays size={16} className="text-[#f21f27]" aria-hidden="true" /><time>{article.date}</time></span>
+						</div>
+						<h2 className="mt-4 text-3xl font-bold leading-tight text-[#101722] sm:text-4xl">{article.title}</h2>
+						<p className="mt-4 text-lg leading-8 text-slate-700">{article.description}</p>
+						<p className={`mt-6 ${bodyTextClass}`}>{article.intro}</p>
+						{article.sections.map((section) => (
+							<section key={section.heading} className="mt-8">
+								<h3 className="text-2xl font-bold leading-snug text-[#101722]">{section.heading}</h3>
+								<p className={`mt-3 ${bodyTextClass}`}>{section.body}</p>
 							</section>
 						))}
 					</div>

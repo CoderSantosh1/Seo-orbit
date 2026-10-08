@@ -111,7 +111,7 @@
     "contact": { "title": "Contact Us", "breadcrumb": "Contact Us", "image": "/blogs/blogsheroImages.png", "imageAlt": "SEOrbit Contact Us" },
     "quote": { "title": "Get A Quote", "breadcrumb": "Get A Quote", "image": "/blogs/blogsheroImages.png", "imageAlt": "SEOrbit Contact Us" },
     "portfolio": { "title": "Portfolio", "breadcrumb": "Portfolio", "image": "/portfolio/Portfliohero.png", "imageAlt": "Portfolio" },
-    "blogDetails": { "title": "Blogs Details", "breadcrumb": "Blogs Details", "image": "/assests/Image/blogsheroImages.png", "imageAlt": "Digital marketing articles", "parentLabel": "Blogs", "parentHref": "/blogs" }
+    "blogDetails": { "title": "Blogs Details", "breadcrumb": "Blogs Details", "image": "/blogs/blogsheroImages.png", "imageAlt": "Digital marketing articles", "parentLabel": "Blogs", "parentHref": "/blogs" }
   },
   "about": {
     "page": {
