@@ -137,7 +137,7 @@ export default function ContactUsForm() {
           {/* =====================================================
               RIGHT - CONTACT INFORMATION
           ====================================================== */}
-          <div className="relative overflow-hidden rounded-md bg-[#062033] px-6 py-7 text-white sm:px-7">
+          <div className="relative self-start overflow-hidden rounded-md bg-[#062033] px-6 py-7 text-white sm:px-7">
 
             {/* Decorative circles */}
             <div className="pointer-events-none absolute -bottom-24 -right-28 h-[360px] w-[360px] rounded-full border-[25px] border-[#f21f27]/10" />
