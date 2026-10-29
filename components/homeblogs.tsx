@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight, FaCalendarAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { articles, blogsSectionContent } from "@/app/data/site-data";
+import { articles, blogsSectionContent } from "@/data/site-data";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 

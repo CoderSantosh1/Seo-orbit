@@ -1,6 +1,6 @@
-import Contact from "@/app/components/contacthero";
-import Form from "@/app/components/from";
-import ContactLocation from "@/app/components/location";
+import Contact from "@/components/contacthero";
+import Form from "@/components/from";
+import ContactLocation from "@/components/location";
 export default function Contactus() {
   return (
     <>

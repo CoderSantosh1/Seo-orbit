@@ -1,5 +1,5 @@
-import Hero from "@/app/components/hero";
-import Ourportfolio from "@/app/components/Ourwork";
+import Hero from "@/components/hero";
+import Ourportfolio from "@/components/Ourwork";
 
 export default function Portfolio() {
     return (

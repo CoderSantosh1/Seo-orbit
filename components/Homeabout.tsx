@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Headset, Users } from "lucide-react";
 import { motion } from "framer-motion";
-import { aboutContent, testimonialsContent } from "@/app/data/site-data";
-import type { AboutUsProps } from "@/app/types/site";
+import { aboutContent, testimonialsContent } from "@/data/site-data";
+import type { AboutUsProps } from "@/types/site";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 const featureIconMap = {

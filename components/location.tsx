@@ -1,5 +1,5 @@
 import { ArrowUpRight, MapPin } from "lucide-react";
-import { locationContent } from "@/app/data/site-data";
+import { locationContent } from "@/data/site-data";
 
 export default function ContactLocation() {
 	return (

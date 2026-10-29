@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 
-import { portfolioContent, portfolioSlug } from "@/app/data/site-data";
+import { portfolioContent, portfolioSlug } from "@/data/site-data";
 
 const projects = portfolioContent.items;
 

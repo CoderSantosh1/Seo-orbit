@@ -9,7 +9,7 @@ import {
 	portfolioSlug,
 	serviceDetailsPage,
 	siteData,
-} from "@/app/data/site-data";
+} from "@/data/site-data";
 
 const projects = portfolioContent.items.map((project) => ({
 	...project,

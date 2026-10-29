@@ -6,7 +6,7 @@ import {
 	FileText,
 	MessageSquareText,
 } from "lucide-react";
-import { quotePageContent } from "@/app/data/site-data";
+import { quotePageContent } from "@/data/site-data";
 
 const benefitsIconMap = {
 	message: MessageSquareText,

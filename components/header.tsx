@@ -5,7 +5,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { headerSocialLinks, siteData } from "@/app/data/site-data";
+import { headerSocialLinks, siteData } from "@/data/site-data";
 
 const socialIconMap = {
   facebook: FaFacebookF,

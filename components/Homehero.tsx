@@ -9,7 +9,7 @@ import {
   FaUsers,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { siteData } from "@/app/data/site-data";
+import { siteData } from "@/data/site-data";
 
 const hero = siteData.hero;
 

@@ -1,5 +1,5 @@
-import Hero from "@/app/components/GerqouteHero";
-import GetQuotForm from "@/app/components/quote";
+import Hero from "@/components/GerqouteHero";
+import GetQuotForm from "@/components/quote";
 
 export default function GetQuot() {
   return (

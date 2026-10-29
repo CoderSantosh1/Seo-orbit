@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
-import { navigationItems, navigationUi } from "@/app/data/site-data";
-import type { PageHeroContent } from "@/app/types/site";
+import { navigationItems, navigationUi } from "@/data/site-data";
+import type { PageHeroContent } from "@/types/site";
 
 export default function PageBanner({ content }: { content: PageHeroContent }) {
   const homeLink = navigationItems.find((item) => item.href === "/");

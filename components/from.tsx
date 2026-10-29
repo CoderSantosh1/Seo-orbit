@@ -13,7 +13,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { footerContact, footerSocialLinks, contactPageContent } from "@/app/data/site-data";
+import { footerContact, footerSocialLinks, contactPageContent } from "@/data/site-data";
 
 const socialIconMap = {
   facebook: FaFacebookF,

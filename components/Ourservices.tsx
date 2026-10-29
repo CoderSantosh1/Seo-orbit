@@ -10,7 +10,7 @@ import {
   PenTool,
 } from "lucide-react";
 import { motion } from "framer-motion";
-import { servicesPageContent } from "@/app/data/site-data";
+import { servicesPageContent } from "@/data/site-data";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 const iconMap = {

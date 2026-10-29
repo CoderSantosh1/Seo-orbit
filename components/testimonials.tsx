@@ -9,7 +9,7 @@ import {
   FaStar,
 } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
-import { testimonialsContent } from "@/app/data/site-data";
+import { testimonialsContent } from "@/data/site-data";
 
 const testimonials = testimonialsContent.items;
 

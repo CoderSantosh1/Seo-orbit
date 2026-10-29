@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Fragment } from "react";
 import { FaChartLine, FaComments, FaCog, FaTrophy } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { processContent } from "@/app/data/site-data";
+import { processContent } from "@/data/site-data";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 const iconMap = {

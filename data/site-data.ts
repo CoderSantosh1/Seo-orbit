@@ -1,5 +1,5 @@
 import categoryData from "./category.json";
-import type { SiteData } from "@/app/types/site";
+import type { SiteData } from "@/types/site";
 
 const { common } = categoryData;
 const sections = categoryData.categories.SEO.sections;

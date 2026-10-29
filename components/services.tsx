@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-import { homeServicesContent } from "@/app/data/site-data";
+import { homeServicesContent } from "@/data/site-data";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 

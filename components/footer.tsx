@@ -20,7 +20,7 @@ import {
   footerSocialLinks,
   locationContent,
   siteData,
-} from "@/app/data/site-data";
+} from "@/data/site-data";
 
 
 const socialIconMap = {

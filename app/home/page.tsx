@@ -1,9 +1,9 @@
-import Hero from "@/app/components/Homehero";
-import About from "@/app/components/Homeabout";
-import Process from "@/app/components/process";
-import Services from "@/app/components/services";
-import Testimonials from "@/app/components/testimonials";
-import Blogs from "@/app/components/homeblogs";
+import Hero from "@/components/Homehero";
+import About from "@/components/Homeabout";
+import Process from "@/components/process";
+import Services from "@/components/services";
+import Testimonials from "@/components/testimonials";
+import Blogs from "@/components/homeblogs";
 
 export default function Home() {
   return (

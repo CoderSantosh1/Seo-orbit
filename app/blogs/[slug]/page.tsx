@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, CalendarDays, ChevronRight, Phone } from "lucide-react";
-import { articles, blogDetailsPage, pageHeroes, serviceDetailsPage, siteData } from "@/app/data/site-data";
+import { articles, blogDetailsPage, pageHeroes, serviceDetailsPage, siteData } from "@/data/site-data";
 
 type Article = (typeof articles)[number];
 

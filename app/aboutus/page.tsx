@@ -1,6 +1,6 @@
-import Hero from "@/app/components/Abouthero";
-import AboutSection from "@/app/components/About";
-import Process from "@/app/components/process";
+import Hero from "@/components/Abouthero";
+import AboutSection from "@/components/About";
+import Process from "@/components/process";
 
 export default function AboutUs() {
   return (

@@ -18,8 +18,8 @@ import {
 	TrendingUp,
 	Users,
 } from "lucide-react";
-import { serviceDetails, serviceDetailsPage, siteData } from "@/app/data/site-data";
-import type { ServiceDetailIconKey } from "@/app/types/site";
+import { serviceDetails, serviceDetailsPage, siteData } from "@/data/site-data";
+import type { ServiceDetailIconKey } from "@/types/site";
 
 const iconMap = {
 	users: Users,

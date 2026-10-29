@@ -3,8 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import GooeyNav from "@/app/components/GooeyNav";
-import { navigationItems, navigationUi } from "@/app/data/site-data";
+import GooeyNav from "@/components/GooeyNav";
+import { navigationItems, navigationUi } from "@/data/site-data";
 
 export default function Navbar() {
   const pathname = usePathname();

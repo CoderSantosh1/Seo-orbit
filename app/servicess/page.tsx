@@ -1,7 +1,7 @@
 
 "use client";
-import Hero from "@/app/components/ServicesHero"
-import Ourservices from "@/app/components/Ourservices";
+import Hero from "@/components/ServicesHero"
+import Ourservices from "@/components/Ourservices";
 
 
 export default function Services() {
