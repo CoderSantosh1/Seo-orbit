@@ -283,7 +283,6 @@ export default function Services() {
                     id,
                     title,
                     description,
-                    more,
                     image,
                     alt,
                     icon,

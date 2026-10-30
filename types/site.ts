@@ -1,26 +1,5 @@
 export type SocialKey = "facebook" | "x" | "linkedin" | "instagram" | "youtube";
 export type HeroStatKey = "users" | "file" | "trophy";
-export type ContentIconKey =
-  | "users"
-  | "support"
-  | "comments"
-  | "settings"
-  | "chart"
-  | "trophy"
-  | "megaphone"
-  | "pointer"
-  | "pen"
-  | "search"
-  | "file"
-   | "link"
-  | "target"
-  | "gauge"
-  | "trending"
-  | "check"
-  | "message"
-  | "clock"
-  | "car"
-  | "coffee";
 export type ServiceDetailIconKey =
   | "users"
   | "pointer"
@@ -120,7 +99,6 @@ export interface ServiceCard {
   id?: string;
   title: string;
   description: string;
-  more?: string;
   image: string;
   alt: string;
   icon: "chart" | "megaphone" | "pointer" | "pen";

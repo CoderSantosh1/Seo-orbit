@@ -7,7 +7,7 @@ export default function ServiceHero() {
     <section className="relative h-[360px] w-full overflow-hidden sm:h-[380px] lg:h-[400px]">
       {/* Background Image */}
       <Image
-        src="/blogs/blogsheroImages.png"
+        src="/blogs/blogsheroImages.webp"
         alt="Services"
         fill
         priority
